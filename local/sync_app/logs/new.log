@@ -1,0 +1,280 @@
+Array
+(
+    [meta] => Array
+        (
+            [href] => https://online.moysklad.ru/api/remap/1.1/entity/product/dd4c1fc1-667e-11e9-9ff4-34e800059b93
+            [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/product/metadata
+            [type] => product
+            [mediaType] => application/json
+            [uuidHref] => https://online.moysklad.ru/app/#good/edit?id=dd4c1156-667e-11e9-9ff4-34e800059b91
+        )
+
+    [id] => dd4c1fc1-667e-11e9-9ff4-34e800059b93
+    [accountId] => 5cb0f6b7-1195-11e7-7a69-971100002ab3
+    [owner] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/employee/5cc2c07a-1195-11e7-7a69-9711000c1dc9
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/employee/metadata
+                    [type] => employee
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#employee/edit?id=5cc2c07a-1195-11e7-7a69-9711000c1dc9
+                )
+
+        )
+
+    [shared] => 1
+    [group] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/group/5cb18d32-1195-11e7-7a69-971100002ab4
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/group/metadata
+                    [type] => group
+                    [mediaType] => application/json
+                )
+
+        )
+
+    [version] => 10
+    [updated] => 2021-10-04 20:43:56
+    [name] => Водонагреватель проточ. напор. однофаз. 6,0кВт/220В 1/2 Stiebel DHC 6 360/200/104мм Германия
+    [description] => Эталон немецкого проточного водонагревателя. Сделан из высококачественных материалов — колба и ТЭН из меди обеспечат надёжную защиту от накипи и коррозии. Может снабжать горячей водой сразу несколько точек (например, кухню и ванную комнату). Для тех, кто ценит качество и комфорт без компромиссов.
+    [code] => 073480
+    [externalCode] => pkYZQtXugGp0rRnMPmGIp1
+    [archived] => 
+    [pathName] => Сантехника/Водонагреватели
+    [productFolder] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/productfolder/6f7984b8-69a4-11e8-9107-5048000bd0e7
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/productfolder/metadata
+                    [type] => productfolder
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#good/edit?id=6f7984b8-69a4-11e8-9107-5048000bd0e7
+                )
+
+        )
+
+    [uom] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/uom/metadata
+                    [type] => uom
+                    [mediaType] => application/json
+                )
+
+        )
+
+    [image] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/download/349d2539-7694-4c34-bd7c-84d7bd763989
+                    [mediaType] => application/octet-stream
+                )
+
+            [title] => 77140
+            [filename] => 77140.jpg
+            [size] => 36373
+            [updated] => 2018-11-12 10:08:53
+            [miniature] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/download/349d2539-7694-4c34-bd7c-84d7bd763989?miniature=true
+                    [mediaType] => image/png
+                )
+
+            [tiny] => Array
+                (
+                    [href] => https://online.moysklad.ru/static/tinyimage/5cb0f6b7-1195-11e7-7a69-971100002ab3/tinyimage/8080d563-9a8b-4db3-8df6-555d7e91b8fb/t.png
+                    [mediaType] => image/png
+                )
+
+        )
+
+    [minPrice] => 0
+    [salePrices] => Array
+        (
+            [0] => Array
+                (
+                    [value] => 2540000
+                    [currency] => Array
+                        (
+                            [meta] => Array
+                                (
+                                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/currency/5cd0ede4-1195-11e7-7a69-9711000c1df7
+                                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata
+                                    [type] => currency
+                                    [mediaType] => application/json
+                                    [uuidHref] => https://online.moysklad.ru/app/#currency/edit?id=5cd0ede4-1195-11e7-7a69-9711000c1df7
+                                )
+
+                        )
+
+                    [priceType] => Цена продажи
+                )
+
+            [1] => Array
+                (
+                    [value] => 2540000
+                    [currency] => Array
+                        (
+                            [meta] => Array
+                                (
+                                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/currency/5cd0ede4-1195-11e7-7a69-9711000c1df7
+                                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata
+                                    [type] => currency
+                                    [mediaType] => application/json
+                                    [uuidHref] => https://online.moysklad.ru/app/#currency/edit?id=5cd0ede4-1195-11e7-7a69-9711000c1df7
+                                )
+
+                        )
+
+                    [priceType] => Опт
+                )
+
+        )
+
+    [buyPrice] => Array
+        (
+            [value] => 2032000
+            [currency] => Array
+                (
+                    [meta] => Array
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.1/entity/currency/5cd0ede4-1195-11e7-7a69-9711000c1df7
+                            [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/currency/metadata
+                            [type] => currency
+                            [mediaType] => application/json
+                            [uuidHref] => https://online.moysklad.ru/app/#currency/edit?id=5cd0ede4-1195-11e7-7a69-9711000c1df7
+                        )
+
+                )
+
+        )
+
+    [supplier] => Array
+        (
+            [meta] => Array
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/counterparty/42fae39c-2798-11e7-7a69-93a700367d8a
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/counterparty/metadata
+                    [type] => counterparty
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#company/edit?id=42fae39c-2798-11e7-7a69-93a700367d8a
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [meta] => Array
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/c94a0482-56c4-11e9-912f-f3d4001acd07
+                            [type] => attributemetadata
+                            [mediaType] => application/json
+                        )
+
+                    [id] => c94a0482-56c4-11e9-912f-f3d4001acd07
+                    [name] => Производитель.
+                    [type] => customentity
+                    [value] => Array
+                        (
+                            [meta] => Array
+                                (
+                                    [href] => https://online.moysklad.ru/api/remap/1.1/entity/customentity/c70b3a2b-56c4-11e9-9109-f8fc001b8649/9c86c7bb-253a-11ec-0a80-03c30000c44c
+                                    [metadataHref] => https://online.moysklad.ru/api/remap/1.1/entity/companysettings/metadata/customEntities/c70b3a2b-56c4-11e9-9109-f8fc001b8649
+                                    [type] => customentity
+                                    [mediaType] => application/json
+                                    [uuidHref] => https://online.moysklad.ru/app/#custom_c70b3a2b-56c4-11e9-9109-f8fc001b8649/edit?id=9c86c7bb-253a-11ec-0a80-03c30000c44c
+                                )
+
+                            [name] => Stiebel Eltron
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [meta] => Array
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/6ceaa644-5d38-11e9-912f-f3d40008c8b6
+                            [type] => attributemetadata
+                            [mediaType] => application/json
+                        )
+
+                    [id] => 6ceaa644-5d38-11e9-912f-f3d40008c8b6
+                    [name] => Ширина (см.)
+                    [type] => double
+                    [value] => 20
+                )
+
+            [2] => Array
+                (
+                    [meta] => Array
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/ddd70a05-5d38-11e9-9109-f8fc000915c4
+                            [type] => attributemetadata
+                            [mediaType] => application/json
+                        )
+
+                    [id] => ddd70a05-5d38-11e9-9109-f8fc000915c4
+                    [name] => Высота (см.)
+                    [type] => double
+                    [value] => 36
+                )
+
+            [3] => Array
+                (
+                    [meta] => Array
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.1/entity/product/metadata/attributes/ef7fca37-5d38-11e9-9ff4-315000094cdc
+                            [type] => attributemetadata
+                            [mediaType] => application/json
+                        )
+
+                    [id] => ef7fca37-5d38-11e9-9ff4-315000094cdc
+                    [name] => Глубина (см.)
+                    [type] => double
+                    [value] => 10.4
+                )
+
+            [4] => Array
+                (
+                    [id] => weight
+                    [name] => Вес
+                    [type] => double
+                    [value] => 2.5
+                )
+
+        )
+
+    [paymentItemType] => GOOD
+    [discountProhibited] => 
+    [article] => DHC 6
+    [trackingType] => NOT_TRACKED
+    [weight] => 2.5
+    [volume] => 0
+    [barcodes] => Array
+        (
+            [0] => 2000000400778
+        )
+
+    [modificationsCount] => 0
+    [isSerialTrackable] => 
+)
+
+-------------
+-------------Array
+(
+    [MODIFIED_BY] => 1
+    [IBLOCK_SECTION_ID] => 5009
+    [NAME] => Водонагреватель проточ. напор. однофаз. 6,0кВт/220В 1/2 Stiebel DHC 6 360/200/104мм Германия
+    [DETAIL_TEXT] => Эталон немецкого проточного водонагревателя. Сделан из высококачественных материалов — колба и ТЭН из меди обеспечат надёжную защиту от накипи и коррозии. Может снабжать горячей водой сразу несколько точек (например, кухню и ванную комнату). Для тех, кто ценит качество и комфорт без компромиссов.
+)

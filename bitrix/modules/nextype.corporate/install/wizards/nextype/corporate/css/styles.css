@@ -1,0 +1,48 @@
+#solutions-container .solution-inner-item h4 {
+    display: inline-block;
+    margin: 0;
+}
+
+.theme-container .themes-list {
+    overflow: hidden;
+}
+
+.theme-container .themes-list .theme {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 93px;
+    height: 93px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid #efefef;
+}
+
+.theme-container .themes-list .theme.active {
+    border-color: #4a9ece;
+}
+
+.theme-container .themes-list .theme .img {
+    height: 83px;
+    width: 83px;
+    padding: 5px;
+}
+
+.theme-container .themes-list .theme .img img {
+    width: 100%;
+}
+
+.theme-container .themes-list .theme > b {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.theme-container .full-screen {
+    border: 2px solid #efefef;
+    height: 450px;
+    width: 100%;   
+}
+
+.theme-container .full-screen img {
+    width: 100%;
+}

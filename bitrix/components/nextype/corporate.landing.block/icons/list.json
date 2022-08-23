@@ -1,0 +1,54 @@
+[
+    {
+        "class": "message",
+        "preview": "images/message.svg"
+    },
+    {
+        "class": "talk",
+        "preview": "images/talk.svg"
+    },
+    {
+        "class": "heart",
+        "preview": "images/heart.svg"
+    },
+    {
+        "class": "card",
+        "preview": "images/card.svg"
+    },
+    {
+        "class": "gift",
+        "preview": "images/gift.svg"
+    },
+    {
+        "class": "shield",
+        "preview": "images/shield.svg"
+    },
+    {
+        "class": "file",
+        "preview": "images/file.svg"
+    },
+    {
+        "class": "plane",
+        "preview": "images/plane.svg"
+    },
+    {
+        "class": "email",
+        "preview": "images/email.svg"
+    },
+    {
+        "class": "phone",
+        "preview": "images/phone.svg"
+    },
+    {
+        "class": "location",
+        "preview": "images/location.svg"
+    },
+    {
+        "class": "open-mail",
+        "preview": "images/open-mail.svg"
+    },
+    {
+        "class": "time",
+        "preview": "images/time.svg"
+    }
+]

@@ -1,0 +1,19 @@
+.nt__colorpicker {
+    
+}
+
+.nt__colorpicker input[type=text] {
+    float: left;
+    margin-right: 5px;
+}
+
+.nt__colorpicker .nt__palette {
+    display: block;
+    float: left;
+    border: 1px solid;
+    border-color: #87919c #959ea9 #9ea7b1 #959ea9;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}

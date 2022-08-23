@@ -1,0 +1,2812 @@
+Host: santehnic-market.ru
+Date: 2019-10-25 10:54:22
+Module: getRetailStore
+array (
+  'errors' => 
+  array (
+    0 => 
+    array (
+      'error' => 'Указанный пользователь не является кассиром ни на одной точке продаж',
+      'code' => 12022,
+      'moreInfo' => 'https://online.moysklad.ru/api/posap/1.0/doc#обработка-ошибок-12022',
+    ),
+  ),
+)
+    MoySklad::getToken
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:67
+----------
+Host: 
+Date: 2019-10-25 11:05:03
+Module: getRetailStore
+array (
+  'errors' => 
+  array (
+    0 => 
+    array (
+      'error' => 'Указанный пользователь не является кассиром ни на одной точке продаж',
+      'code' => 12022,
+      'moreInfo' => 'https://online.moysklad.ru/api/posap/1.0/doc#обработка-ошибок-12022',
+    ),
+  ),
+)
+    MoySklad::getToken
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:67
+----------
+Host: 
+Date: 2019-10-25 12:05:02
+Module: getRetailStore
+array (
+  'errors' => 
+  array (
+    0 => 
+    array (
+      'error' => 'Указанный пользователь не является кассиром ни на одной точке продаж',
+      'code' => 12022,
+      'moreInfo' => 'https://online.moysklad.ru/api/posap/1.0/doc#обработка-ошибок-12022',
+    ),
+  ),
+)
+    MoySklad::getToken
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:67
+----------
+Host: 
+Date: 2019-10-25 12:15:02
+Module: getRetailStore
+array (
+  'errors' => 
+  array (
+    0 => 
+    array (
+      'error' => 'Указанный пользователь не является кассиром ни на одной точке продаж',
+      'code' => 12022,
+      'moreInfo' => 'https://online.moysklad.ru/api/posap/1.0/doc#обработка-ошибок-12022',
+    ),
+  ),
+)
+    MoySklad::getToken
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:67
+----------
+Host: santehnic-market.ru
+Date: 2019-10-25 12:55:00
+Module: getRetailStore
+array (
+  'meta' => 
+  array (
+    'href' => 'https://online.moysklad.ru/api/posap/1.0/admin/retailstore',
+    'mediaType' => 'application/json',
+    'size' => 2,
+    'limit' => 1000,
+    'offsetId' => '00000000-0000-0000-0000-000000000000',
+    'direction' => 'forward',
+  ),
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'idType' => 'native',
+      ),
+      'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+      'name' => 'СтройМаркет (Покрышкина 7)',
+      'version' => 18263,
+      'updated' => '2019-10-23 20:14:41',
+      'externalCode' => 'CBOaN9RxjrtbiAp7ybNWx2',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '32969',
+          'moment' => '2019-10-25 12:51:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00052',
+          'moment' => '2019-10-24 20:36:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00375',
+          'moment' => '2019-10-24 20:02:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '00417',
+          'moment' => '2019-10-25 12:41:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00269',
+          'moment' => '2019-10-25 09:08:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 12:55:00',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 12:55:00',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 4426400,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => false,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.68',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-25 10:26:00',
+        ),
+        'lastCheckMoment' => '2019-10-25 12:50:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+    1 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'idType' => 'native',
+      ),
+      'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+      'name' => 'СтройМаркет Покрышкина 7',
+      'version' => 12174,
+      'updated' => '2019-10-25 09:54:02',
+      'externalCode' => '0DW3tecbhAvpK-WIahcLR1',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '45096',
+          'moment' => '2019-10-14 20:05:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00235',
+          'moment' => '2019-02-04 15:00:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00762',
+          'moment' => '2019-10-14 20:00:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '01268',
+          'moment' => '2019-02-04 16:52:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00491',
+          'moment' => '2019-10-14 10:39:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 12:55:00',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 12:55:00',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 2355300,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => true,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.66',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-14 19:58:00',
+        ),
+        'lastCheckMoment' => '2019-10-14 20:11:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+  ),
+)
+    MoySklad::getToken
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:67
+----------
+Host: santehnic-market.ru
+Date: 2019-10-25 13:00:01
+Module: getRetailStore
+array (
+  'meta' => 
+  array (
+    'href' => 'https://online.moysklad.ru/api/posap/1.0/admin/retailstore',
+    'mediaType' => 'application/json',
+    'size' => 2,
+    'limit' => 1000,
+    'offsetId' => '00000000-0000-0000-0000-000000000000',
+    'direction' => 'forward',
+  ),
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'idType' => 'native',
+      ),
+      'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+      'name' => 'СтройМаркет (Покрышкина 7)',
+      'version' => 18263,
+      'updated' => '2019-10-23 20:14:41',
+      'externalCode' => 'CBOaN9RxjrtbiAp7ybNWx2',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '32969',
+          'moment' => '2019-10-25 12:51:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00052',
+          'moment' => '2019-10-24 20:36:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00375',
+          'moment' => '2019-10-24 20:02:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '00417',
+          'moment' => '2019-10-25 12:41:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00269',
+          'moment' => '2019-10-25 09:08:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:00:01',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:00:01',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 4426400,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => false,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.68',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-25 10:26:00',
+        ),
+        'lastCheckMoment' => '2019-10-25 12:50:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+    1 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'idType' => 'native',
+      ),
+      'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+      'name' => 'СтройМаркет Покрышкина 7',
+      'version' => 12174,
+      'updated' => '2019-10-25 09:54:02',
+      'externalCode' => '0DW3tecbhAvpK-WIahcLR1',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '45096',
+          'moment' => '2019-10-14 20:05:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00235',
+          'moment' => '2019-02-04 15:00:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00762',
+          'moment' => '2019-10-14 20:00:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '01268',
+          'moment' => '2019-02-04 16:52:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00491',
+          'moment' => '2019-10-14 10:39:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:00:01',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:00:01',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 2355300,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => true,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.66',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-14 19:58:00',
+        ),
+        'lastCheckMoment' => '2019-10-14 20:11:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+  ),
+)
+    MoySklad::getToken < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:286
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: santehnic-market.ru
+Date: 2019-10-25 13:05:03
+Module: getRetailStore
+array (
+  'meta' => 
+  array (
+    'href' => 'https://online.moysklad.ru/api/posap/1.0/admin/retailstore',
+    'mediaType' => 'application/json',
+    'size' => 2,
+    'limit' => 1000,
+    'offsetId' => '00000000-0000-0000-0000-000000000000',
+    'direction' => 'forward',
+  ),
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'idType' => 'native',
+      ),
+      'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+      'name' => 'СтройМаркет (Покрышкина 7)',
+      'version' => 18263,
+      'updated' => '2019-10-23 20:14:41',
+      'externalCode' => 'CBOaN9RxjrtbiAp7ybNWx2',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '32969',
+          'moment' => '2019-10-25 12:51:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00052',
+          'moment' => '2019-10-24 20:36:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00375',
+          'moment' => '2019-10-24 20:02:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '00417',
+          'moment' => '2019-10-25 12:41:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00269',
+          'moment' => '2019-10-25 09:08:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:05:03',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:05:03',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 4426400,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => false,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.68',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-25 10:26:00',
+        ),
+        'lastCheckMoment' => '2019-10-25 12:50:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+    1 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'idType' => 'native',
+      ),
+      'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+      'name' => 'СтройМаркет Покрышкина 7',
+      'version' => 12174,
+      'updated' => '2019-10-25 09:54:02',
+      'externalCode' => '0DW3tecbhAvpK-WIahcLR1',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '45096',
+          'moment' => '2019-10-14 20:05:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00235',
+          'moment' => '2019-02-04 15:00:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00762',
+          'moment' => '2019-10-14 20:00:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '01268',
+          'moment' => '2019-02-04 16:52:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00491',
+          'moment' => '2019-10-14 10:39:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:05:03',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:05:03',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 2355300,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => true,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.66',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-14 19:58:00',
+        ),
+        'lastCheckMoment' => '2019-10-14 20:11:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+  ),
+)
+    MoySklad::getToken < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:286
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: santehnic-market.ru
+Date: 2019-10-25 13:10:05
+Module: getRetailStore
+array (
+  'meta' => 
+  array (
+    'href' => 'https://online.moysklad.ru/api/posap/1.0/admin/retailstore',
+    'mediaType' => 'application/json',
+    'size' => 2,
+    'limit' => 1000,
+    'offsetId' => '00000000-0000-0000-0000-000000000000',
+    'direction' => 'forward',
+  ),
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'idType' => 'native',
+      ),
+      'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+      'name' => 'СтройМаркет (Покрышкина 7)',
+      'version' => 18263,
+      'updated' => '2019-10-23 20:14:41',
+      'externalCode' => 'CBOaN9RxjrtbiAp7ybNWx2',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '32969',
+          'moment' => '2019-10-25 12:51:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00052',
+          'moment' => '2019-10-24 20:36:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00375',
+          'moment' => '2019-10-24 20:02:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '00417',
+          'moment' => '2019-10-25 12:41:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00269',
+          'moment' => '2019-10-25 09:08:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:10:04',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:10:04',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 4426400,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => false,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.68',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-25 10:26:00',
+        ),
+        'lastCheckMoment' => '2019-10-25 12:50:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+    1 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'idType' => 'native',
+      ),
+      'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+      'name' => 'СтройМаркет Покрышкина 7',
+      'version' => 12174,
+      'updated' => '2019-10-25 09:54:02',
+      'externalCode' => '0DW3tecbhAvpK-WIahcLR1',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '45096',
+          'moment' => '2019-10-14 20:05:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00235',
+          'moment' => '2019-02-04 15:00:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00762',
+          'moment' => '2019-10-14 20:00:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '01268',
+          'moment' => '2019-02-04 16:52:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00491',
+          'moment' => '2019-10-14 10:39:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:10:05',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:10:05',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 2355300,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => true,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.66',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-14 19:58:00',
+        ),
+        'lastCheckMoment' => '2019-10-14 20:11:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+  ),
+)
+    MoySklad::getToken < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:286
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: santehnic-market.ru
+Date: 2019-10-25 13:15:06
+Module: getRetailStore
+array (
+  'meta' => 
+  array (
+    'href' => 'https://online.moysklad.ru/api/posap/1.0/admin/retailstore',
+    'mediaType' => 'application/json',
+    'size' => 2,
+    'limit' => 1000,
+    'offsetId' => '00000000-0000-0000-0000-000000000000',
+    'direction' => 'forward',
+  ),
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+        'idType' => 'native',
+      ),
+      'id' => '152f5d05-2891-11e9-9ff4-34e8001be46f',
+      'name' => 'СтройМаркет (Покрышкина 7)',
+      'version' => 18263,
+      'updated' => '2019-10-23 20:14:41',
+      'externalCode' => 'CBOaN9RxjrtbiAp7ybNWx2',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '32969',
+          'moment' => '2019-10-25 12:51:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00052',
+          'moment' => '2019-10-24 20:36:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00375',
+          'moment' => '2019-10-24 20:02:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '00417',
+          'moment' => '2019-10-25 12:41:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00269',
+          'moment' => '2019-10-25 09:08:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:15:06',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:15:06',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 4426400,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => false,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.68',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-25 10:26:00',
+        ),
+        'lastCheckMoment' => '2019-10-25 12:50:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+    1 => 
+    array (
+      'meta' => 
+      array (
+        'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/retailstore/5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'mediaType' => 'application/json',
+        'type' => 'retailstore',
+        'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+        'idType' => 'native',
+      ),
+      'id' => '5cdb9614-1195-11e7-7a69-9711000c1dff',
+      'name' => 'СтройМаркет Покрышкина 7',
+      'version' => 12174,
+      'updated' => '2019-10-25 09:54:02',
+      'externalCode' => '0DW3tecbhAvpK-WIahcLR1',
+      'controlShippingStock' => false,
+      'controlCashierChoice' => true,
+      'discountEnable' => true,
+      'discountMaxPercent' => 20,
+      'priceType' => 'Цена продажи',
+      'authTokenAttached' => true,
+      'cashiers' => 
+      array (
+        'rows' => 
+        array (
+          0 => 
+          array (
+            'meta' => 
+            array (
+              'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/employee/233f5ba0-22c8-11e9-912f-f3d400139281',
+              'mediaType' => 'application/json',
+              'type' => 'employee',
+              'id' => '233f5ba0-22c8-11e9-912f-f3d400139281',
+              'idType' => 'native',
+            ),
+            'uid' => 'user@kck007',
+            'lastName' => 'Юрий',
+            'inn' => '402404441710',
+          ),
+        ),
+      ),
+      'organization' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/organization/5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'organization',
+          'id' => '5ccfb4d9-1195-11e7-7a69-9711000c1df0',
+          'idType' => 'native',
+        ),
+        'name' => 'ИП Кардумян Александр Каренович',
+        'companyType' => 'entrepreneur',
+        'legalTitle' => 'Индивидуальный предприниматель Кардумян Александр Каренович',
+        'legalAddress' => '249401, Калужская обл, г Людиново, ул. Комсомольская, д. 2',
+        'inn' => '402404441710',
+        'ogrnip' => '317402700026296',
+        'isEgaisEnable' => false,
+        'payerVat' => false,
+      ),
+      'store' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/store/5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'mediaType' => 'application/json',
+          'permitted' => false,
+          'type' => 'store',
+          'id' => '5cd0dcfa-1195-11e7-7a69-9711000c1df2',
+          'idType' => 'native',
+        ),
+        'name' => 'Основной склад',
+        'pathName' => '',
+        'address' => 'Покрышкина',
+      ),
+      'acquire' => 
+      array (
+        'meta' => 
+        array (
+          'href' => 'https://online.moysklad.ru/api/posap/1.0/entity/counterparty/848008e3-e2a7-11e8-9ff4-3150000af361',
+          'mediaType' => 'application/json',
+          'type' => 'counterparty',
+          'id' => '848008e3-e2a7-11e8-9ff4-3150000af361',
+          'idType' => 'native',
+        ),
+      ),
+      'lastOperationNames' => 
+      array (
+        0 => 
+        array (
+          'entity' => 'retaildemand',
+          'name' => '45096',
+          'moment' => '2019-10-14 20:05:00',
+        ),
+        1 => 
+        array (
+          'entity' => 'retaildrawercashin',
+          'name' => '00235',
+          'moment' => '2019-02-04 15:00:00',
+        ),
+        2 => 
+        array (
+          'entity' => 'retaildrawercashout',
+          'name' => '00762',
+          'moment' => '2019-10-14 20:00:00',
+        ),
+        3 => 
+        array (
+          'entity' => 'retailsalesreturn',
+          'name' => '01268',
+          'moment' => '2019-02-04 16:52:00',
+        ),
+        4 => 
+        array (
+          'entity' => 'retailshift',
+          'name' => '00491',
+          'moment' => '2019-10-14 10:39:00',
+        ),
+        5 => 
+        array (
+          'entity' => 'prepayment',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:15:06',
+        ),
+        6 => 
+        array (
+          'entity' => 'prepaymentreturn',
+          'name' => '00000',
+          'moment' => '2019-10-25 13:15:06',
+        ),
+      ),
+      'egaisEnabled' => false,
+      'frNumber' => NULL,
+      'returnFromClosedShiftEnabled' => true,
+      'alwaysPrintCheck' => false,
+      'issueOrders' => true,
+      'sellReserves' => false,
+      'ofdEnabled' => true,
+      'allowCustomPrice' => false,
+      'cash' => 2355300,
+      'createPaymentInOnRetailShiftClosing' => true,
+      'createCashInOnRetailShiftClosing' => true,
+      'allowCreateProducts' => false,
+      'allowCreateReturnWithoutDemand' => true,
+      'isPhonePriority' => true,
+      'isOnlineDiscount' => false,
+      'reservePrepaidGoods' => false,
+      'environment' => 
+      array (
+        'device' => 'PIPO X10pro',
+        'os' => 'android',
+        'software' => 
+        array (
+          'name' => 'Касса МойСклад',
+          'vendor' => 'МойСклад',
+          'version' => '2.66',
+        ),
+        'chequePrinter' => 
+        array (
+          'vendor' => 'АТОЛ',
+          'name' => 'АТОЛ 11Ф',
+          'serial' => '00106702935082',
+          'fiscalDataVersion' => '1.05',
+          'driver' => 
+          array (
+            'name' => 'АТОЛ',
+            'version' => '10.4.2',
+          ),
+          'fiscalMemory' => 
+          array (
+            'fiscalDataVersion' => '1.00',
+          ),
+          'firmwareVersion' => '3.0.7733',
+        ),
+      ),
+      'state' => 
+      array (
+        'sync' => 
+        array (
+          'lastAttempMoment' => '2019-10-14 19:58:00',
+        ),
+        'lastCheckMoment' => '2019-10-14 20:11:00',
+        'fiscalMemory' => 
+        array (
+          'notSendDocCount' => 0,
+          'notSendFirstDocMoment' => '1970-01-01 00:00:00',
+        ),
+      ),
+      'enableNotMRCTobaccoSale' => false,
+      'fiscalType' => 'STANDARD',
+    ),
+  ),
+)
+    MoySklad::getToken < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:286
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2019-12-16 01:07:15
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '49466'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:695
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-01-08 02:17:57
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '47488'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:695
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-01-08 03:05:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2020-02-20 03:42:38
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '51445'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:695
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-03-05 19:54:57
+Module: main
+ MySql Query Error: DELETE FROM b_iblock_section_property WHERE SECTION_ID = 2548 AND PROPERTY_ID = 330 [MySQL server has gone away]
+    CDatabaseMysql::Query < CIBlockSectionPropertyLink::Delete < MoySklad::UpdateSectionPropsLinks < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/section_property.php:181
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:1188
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:319
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-03-20 03:26:38
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '42895'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:695
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-04-20 03:21:38
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=52316
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:946
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:702
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-05-20 03:21:39
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=53058
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:946
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:702
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-06-01 03:10:15
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=41265
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:946
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:702
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-06-20 03:21:38
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '55814'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:695
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-07-20 03:14:39
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,UNIX_TIMESTAMP(BE.TIMESTAMP_X) as TIMESTAMP_X_UNIX,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,UNIX_TIMESTAMP(BE.DATE_CREATE) as DATE_CREATE_UNIX,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.IBLOCK_SECTION_ID as IBLOCK_SECTION_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as DATE_ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as DATE_ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.SEARCHABLE_CONTENT as SEARCHABLE_CONTENT,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_LAST_HISTORY_ID as WF_LAST_HISTORY_ID,BE.WF_NEW as WF_NEW,if (BE.WF_DATE_LOCK is null, 'green', if(DATE_ADD(BE.WF_DATE_LOCK, interval 60 MINUTE)<now(), 'green', if(BE.WF_LOCKED_BY=0, 'yellow', 'red'))) as LOCK_STATUS,BE.WF_LOCKED_BY as WF_LOCKED_BY,DATE_FORMAT(BE.WF_DATE_LOCK, '%d.%m.%Y %H:%i:%s') as WF_DATE_LOCK,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.SHOW_COUNTER as SHOW_COUNTER,BE.SHOW_COUNTER_START as SHOW_COUNTER_START,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.XML_ID as EXTERNAL_ID,BE.TMP_ID as TMP_ID,concat('(',U.LOGIN,') ',ifnull(U.NAME,''),' ',ifnull(U.LAST_NAME,'')) as USER_NAME,concat('(',UL.LOGIN,') ',ifnull(UL.NAME,''),' ',ifnull(UL.LAST_NAME,'')) as LOCKED_USER_NAME,concat('(',UC.LOGIN,') ',ifnull(UC.NAME,''),' ',ifnull(UC.LAST_NAME,'')) as CREATED_USER_NAME,L.DIR as LANG_DIR,B.LID as LID,B.IBLOCK_TYPE_ID as IBLOCK_TYPE_ID,B.CODE as IBLOCK_CODE,B.NAME as IBLOCK_NAME,B.XML_ID as IBLOCK_EXTERNAL_ID,B.DETAIL_PAGE_URL as DETAIL_PAGE_URL,B.LIST_PAGE_URL as LIST_PAGE_URL,DATE_FORMAT(BE.DATE_CREATE, '%Y.%m.%d') as CREATED_DATE,if(BE.WF_STATUS_ID = 1, 'Y', 'N') as BP_PUBLISHED 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+						LEFT JOIN b_user U ON U.ID=BE.MODIFIED_BY
+			LEFT JOIN b_user UL ON UL.ID=BE.WF_LOCKED_BY
+			LEFT JOIN b_user UC ON UC.ID=BE.CREATED_BY
+
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '153706'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CAllIBlockElement::GetByID < MoySklad::SetProductProperties < MoySklad::updateProduct
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:3925
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:965
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:712
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+----------
+Host: 
+Date: 2020-07-20 03:15:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2020-08-05 20:05:02
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2020-08-18 13:05:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2020-08-20 02:41:37
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=152333
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:955
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:711
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-08-20 03:41:42
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=151448
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:955
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:711
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-09-07 22:05:03
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2020-09-20 03:54:41
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '151395'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:704
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-10-20 03:53:41
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '152549'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:704
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2020-11-20 03:44:41
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '150005'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:704
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-05-12 04:57:10
+Module: main
+ MySql Query Error: UPDATE b_search_content SET `DATE_TO` = NULL, `DATE_FROM` = NULL, `PARAM2` = '9', `PARAM1` = 'DATA', `TAGS` = '', `BODY` = 'Margot DIM-02-Bi', `TITLE` = 'Смеситель однорычажный встраиваемый CEZARES Margot DIM-02-Bi бронза', `URL` = '=ID=152214&EXTERNAL_ID=d70bc6bf-79ea-11e8-9107-50480004975e&IBLOCK_SECTION_ID=4850&IBLOCK_TYPE_ID=DATA&IBLOCK_ID=9&IBLOCK_CODE=catalog&IBLOCK_EXTERNAL_ID=catalogs1&CODE=smesitel_odnorychazhnyy_vstraivaemyy_cezares_margot_dim_02_bi_bronza_margot_dim_02_bi', `DATE_CHANGE` = '2021-05-12 04:57:09' WHERE ID=118655 [Table 'santeheb_sm.b_search_content' doesn't exist]
+    CDatabaseMysql::Query < CAllDatabase::QueryBind < CAllSearch::Update < CAllSearch::Index < CAllIBlockElement::UpdateSearch
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/database.php:489
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/search/classes/general/search.php:2549
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/search/classes/general/search.php:1287
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5080
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1489
+----------
+Host: 
+Date: 2021-05-12 09:15:01
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php<br> LINE: 2475 MySql Query Error: SELECT G.SECURITY_POLICY FROM b_group G WHERE G.ID=2 []
+    CDatabaseMysql::Query < CAllUser::GetGroupPolicy < CAllUser::GetSecurityPolicy < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php:2475
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php:50
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2021-05-13 15:05:01
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php<br> LINE: 2475 MySql Query Error: SELECT G.SECURITY_POLICY FROM b_group G WHERE G.ID=2 []
+    CDatabaseMysql::Query < CAllUser::GetGroupPolicy < CAllUser::GetSecurityPolicy < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php:2475
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/general/user.php:50
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2021-05-20 03:41:42
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockpropertyenum.php<br> LINE: 121 MySql Query Error: 
+			SELECT
+				BEN.*,
+				BEN.XML_ID as EXTERNAL_ID,
+				P.NAME as PROPERTY_NAME,
+				P.CODE as PROPERTY_CODE,
+				P.SORT as PROPERTY_SORT
+			FROM
+				b_iblock_property_enum BEN,
+				b_iblock_property P
+			WHERE
+				BEN.PROPERTY_ID=P.ID
+			 AND  ((((P.ID = '285')))) 
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockPropertyEnum::GetList < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockpropertyenum.php:121
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:924
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:711
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-06-02 15:15:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2021-06-20 03:31:41
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=154165
+					AND IBLOCK_PROPERTY_ID=285
+			 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:955
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:711
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-06-22 14:06:59
+Module: main
+ MySql Query Error: 
+			SELECT BP.*, BEP.ID as PROPERTY_VALUE_ID, BEP.VALUE, BEP.DESCRIPTION, BEPE.VALUE VALUE_ENUM, BEPE.XML_ID VALUE_XML_ID, BEPE.SORT VALUE_SORT
+			FROM b_iblock B
+				INNER JOIN b_iblock_property BP ON B.ID=BP.IBLOCK_ID
+				LEFT JOIN b_iblock_element_property BEP ON (BP.ID = BEP.IBLOCK_PROPERTY_ID AND BEP.IBLOCK_ELEMENT_ID = 139521)
+				LEFT JOIN b_iblock_property_enum BEPE ON (BP.PROPERTY_TYPE = 'L' AND BEPE.ID=BEP.VALUE_ENUM AND BEPE.PROPERTY_ID=BP.ID)
+			WHERE B.ID = 9
+				AND BP.ACTIVE='Y'
+
+			 ORDER BY  BP.SORT asc, BP.ID asc, BEPE.SORT asc, BEP.ID asc [The table '/home/tmpfs/#sql_7_2' is full]
+    CDatabaseMysql::Query < CAllIBlockElement::GetProperty < _CIBElement::GetProperties < CAllCatalogDiscount::__GenerateFields < CAllCatalogDiscount::GetDiscount
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5772
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblock_element.php:167
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/discount.php:1795
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/discount.php:1022
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/product.php:682
+----------
+Host: 
+Date: 2021-06-22 14:09:24
+Module: main
+ MySql Query Error: 
+			SELECT BP.*, BEP.ID as PROPERTY_VALUE_ID, BEP.VALUE, BEP.DESCRIPTION, BEPE.VALUE VALUE_ENUM, BEPE.XML_ID VALUE_XML_ID, BEPE.SORT VALUE_SORT
+			FROM b_iblock B
+				INNER JOIN b_iblock_property BP ON B.ID=BP.IBLOCK_ID
+				LEFT JOIN b_iblock_element_property BEP ON (BP.ID = BEP.IBLOCK_PROPERTY_ID AND BEP.IBLOCK_ELEMENT_ID = 153039)
+				LEFT JOIN b_iblock_property_enum BEPE ON (BP.PROPERTY_TYPE = 'L' AND BEPE.ID=BEP.VALUE_ENUM AND BEPE.PROPERTY_ID=BP.ID)
+			WHERE B.ID = 9
+				AND BP.ACTIVE='Y'
+
+			 ORDER BY  BP.SORT asc, BP.ID asc, BEPE.SORT asc, BEP.ID asc [The table '/home/tmpfs/#sql_7_116' is full]
+    CDatabaseMysql::Query < CAllIBlockElement::GetProperty < _CIBElement::GetProperties < MoySklad::SetProductProperties < MoySklad::updateProduct
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5772
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblock_element.php:167
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:967
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:712
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+----------
+Host: 
+Date: 2021-06-22 21:55:14
+Module: main
+ MySql Query Error: 
+			SELECT BP.*, BEP.ID as PROPERTY_VALUE_ID, BEP.VALUE, BEP.DESCRIPTION, BEPE.VALUE VALUE_ENUM, BEPE.XML_ID VALUE_XML_ID, BEPE.SORT VALUE_SORT
+			FROM b_iblock B
+				INNER JOIN b_iblock_property BP ON B.ID=BP.IBLOCK_ID
+				LEFT JOIN b_iblock_element_property BEP ON (BP.ID = BEP.IBLOCK_PROPERTY_ID AND BEP.IBLOCK_ELEMENT_ID = 148493)
+				LEFT JOIN b_iblock_property_enum BEPE ON (BP.PROPERTY_TYPE = 'L' AND BEPE.ID=BEP.VALUE_ENUM AND BEPE.PROPERTY_ID=BP.ID)
+			WHERE B.ID = 9
+				AND BP.ACTIVE='Y'
+
+			 ORDER BY  BP.SORT asc, BP.ID asc, BEPE.SORT asc, BEP.ID asc [The table '/home/tmpfs/#sql_7_6' is full]
+    CDatabaseMysql::Query < CAllIBlockElement::GetProperty < _CIBElement::GetProperties < CAllCatalogDiscount::__GenerateFields < CAllCatalogDiscount::GetDiscount
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5772
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblock_element.php:167
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/discount.php:1795
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/discount.php:1022
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/general/product.php:682
+----------
+Host: 
+Date: 2021-07-03 02:15:12
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockpropertyenum.php<br> LINE: 121 MySql Query Error: 
+			SELECT
+				BEN.*,
+				BEN.XML_ID as EXTERNAL_ID,
+				P.NAME as PROPERTY_NAME,
+				P.CODE as PROPERTY_CODE,
+				P.SORT as PROPERTY_SORT
+			FROM
+				b_iblock_property_enum BEN,
+				b_iblock_property P
+			WHERE
+				BEN.PROPERTY_ID=P.ID
+			 AND  ((((P.ID = '285')))) 
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockPropertyEnum::GetList < MoySklad::SetCountry < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockpropertyenum.php:121
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:924
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:711
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-07-20 03:31:40
+Module: main
+ MySql Query Error: 
+					select *
+					from b_iblock_element_property
+					where IBLOCK_ELEMENT_ID=149725
+					AND IBLOCK_PROPERTY_ID in (102, 254, 253, 307, 306)
+				 [Server shutdown in progress]
+    CDatabaseMysql::Query < CAllIBlockElement::SetPropertyValuesEx < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:6044
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:727
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-08-20 03:31:43
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br>Line: 1707 MySql Query Error: 
+				DELETE FROM
+					b_iblock_element_property
+				WHERE
+					IBLOCK_ELEMENT_ID=149741
+					AND IBLOCK_PROPERTY_ID=322
+			 [MySQL server has gone away]
+    CDatabaseMysql::Query < CIBlockElement::SetPropertyValues < MoySklad::SetProductProperties < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1707
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:1102
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:712
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-08-23 15:15:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2021-09-20 03:31:41
+Module: main
+File: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/mysql/product.php<br>Line: 108 MySql Query Error: select ID, QUANTITY from b_catalog_product where ID = 149559 [Server shutdown in progress]
+    CDatabaseMysql::Query < CCatalogProduct::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/catalog/mysql/product.php:108
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:730
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------
+Host: 
+Date: 2021-09-22 22:04:32
+Module: main
+ MySql Query Error: 
+			SELECT BP.*, BEP.ID as PROPERTY_VALUE_ID, BEP.VALUE, BEP.DESCRIPTION, BEPE.VALUE VALUE_ENUM, BEPE.XML_ID VALUE_XML_ID, BEPE.SORT VALUE_SORT
+			FROM b_iblock B
+				INNER JOIN b_iblock_property BP ON B.ID=BP.IBLOCK_ID
+				LEFT JOIN b_iblock_element_property BEP ON (BP.ID = BEP.IBLOCK_PROPERTY_ID AND BEP.IBLOCK_ELEMENT_ID = 151516)
+				LEFT JOIN b_iblock_property_enum BEPE ON (BP.PROPERTY_TYPE = 'L' AND BEPE.ID=BEP.VALUE_ENUM AND BEPE.PROPERTY_ID=BP.ID)
+			WHERE B.ID = 9
+				AND BP.ACTIVE='Y'
+
+			 ORDER BY  BP.SORT asc, BP.ID asc, BEPE.SORT asc, BEP.ID asc [MySQL server has gone away]
+    CDatabaseMysql::Query < CAllIBlockElement::GetProperty < _CIBElement::GetProperties < MoySklad::SetProductProperties < MoySklad::updateProduct
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5772
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/general/iblock_element.php:167
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:967
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:712
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+----------
+Host: 
+Date: 2021-09-22 22:05:01
+Module: main
+ MySql Query Error: 
+			SELECT 'x'
+			FROM b_agent
+			WHERE
+				ACTIVE = 'Y'
+				AND NEXT_EXEC <= now()
+				AND (DATE_CHECK IS NULL OR DATE_CHECK <= now())
+				
+			LIMIT 1
+		 []
+    CDatabaseMysql::Query < CAgent::ExecuteAgents < CAgent::CheckAgents < require_once < require
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:73
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include.php:1
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/main/include/prolog_before.php:14
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:50
+----------
+Host: 
+Date: 2021-10-20 03:47:40
+Module: main
+FILE: /home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php<br> LINE: 741 MySql Query Error: SELECT  BE.ID as ID,DATE_FORMAT(BE.TIMESTAMP_X, '%d.%m.%Y %H:%i:%s') as TIMESTAMP_X,BE.MODIFIED_BY as MODIFIED_BY,DATE_FORMAT(BE.DATE_CREATE, '%d.%m.%Y %H:%i:%s') as DATE_CREATE,BE.CREATED_BY as CREATED_BY,BE.IBLOCK_ID as IBLOCK_ID,BE.ACTIVE as ACTIVE,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_FROM)>0, DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_FROM, '%d.%m.%Y')) as ACTIVE_FROM,IF(EXTRACT(HOUR_SECOND FROM BE.ACTIVE_TO)>0, DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y %H:%i:%s'), DATE_FORMAT(BE.ACTIVE_TO, '%d.%m.%Y')) as ACTIVE_TO,BE.SORT as SORT,BE.NAME as NAME,BE.PREVIEW_PICTURE as PREVIEW_PICTURE,BE.PREVIEW_TEXT as PREVIEW_TEXT,BE.PREVIEW_TEXT_TYPE as PREVIEW_TEXT_TYPE,BE.DETAIL_PICTURE as DETAIL_PICTURE,BE.DETAIL_TEXT as DETAIL_TEXT,BE.DETAIL_TEXT_TYPE as DETAIL_TEXT_TYPE,BE.WF_STATUS_ID as WF_STATUS_ID,BE.WF_PARENT_ELEMENT_ID as WF_PARENT_ELEMENT_ID,BE.WF_NEW as WF_NEW,BE.WF_COMMENTS as WF_COMMENTS,BE.IN_SECTIONS as IN_SECTIONS,BE.CODE as CODE,BE.TAGS as TAGS,BE.XML_ID as XML_ID,BE.TMP_ID as TMP_ID 
+			FROM 
+			b_iblock B
+			INNER JOIN b_lang L ON B.LID=L.LID
+			INNER JOIN b_iblock_element BE ON BE.IBLOCK_ID = B.ID
+			
+		
+			WHERE 1=1 
+			AND (
+			
+				((((BE.ID = '150147'))))
+			)
+			
+		 [Server shutdown in progress]
+    CDatabaseMysql::Query < CIBlockElement::GetList < CIBlockElement::Update < MoySklad::updateProduct < MoySklad::syncCatalogProducts
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:741
+	/home/s/santeheb/santehnic-market.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:792
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:713
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/classes/MoySklad.php:275
+	/home/s/santeheb/santehnic-market.ru/public_html/local/sync_app/app.php:77
+----------

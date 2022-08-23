@@ -1,0 +1,28 @@
+2022-Jan-16 00:12:34 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2022-Jan-16 00:12:34 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2022-Jan-16 00:12:34 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2022-Jan-16 00:12:34 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2022-Jan-16 00:12:34 Сохранение сессии (check_session): Ok
+50% done
+2022-Jan-16 00:12:34 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2022-Jan-16 00:12:34 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2022-Jan-16 00:14:34 Работа с сокетами (check_socket): Fail
+Connection to ssl://santehnic-market.ru:443	Success
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=socket_test&unique_id=7e0f85f7abb3eea96d9fc068ff21ad26 HTTP/1.1
+Host: santehnic-market.ru
+
+
+== Response ==
+
+== Body ==
+
+==========
+
+Ошибка! Не работает
