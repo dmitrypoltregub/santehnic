@@ -3,6 +3,26 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 $arParams['PRICE_CODE'] = (!empty($arParams['PRICE_CODE'][0])) ? $arParams['PRICE_CODE'][0] : 'PRICE';
 
+//==============================================//
+// Показывать все свойства в DISPLAY_PROPERTIES //
+//==============================================//
+
+$arResult["DISPLAY_PROPERTIES"] = array();
+foreach ($arResult["PROPERTIES"] as $pid => &$arProp)
+{
+   // Не выводим для просмотра свойства с сортировкой мнеьше 0 (они будут у нас служебными)
+   if ($arProp["SORT"] < 0)
+      continue;
+   if(in_array($arProp['CODE'], $arParams['FILTER_PROPERTY_CODE_DISALLOW']))
+	   continue;
+
+   if((is_array($arProp["VALUE"]) && count($arProp["VALUE"])>0) ||
+   (!is_array($arProp["VALUE"]) && strlen($arProp["VALUE"])>0))
+   {
+      $arResult["DISPLAY_PROPERTIES"][$pid] = CIBlockFormatProperties::GetDisplayValue($arResult, $arProp);
+   }
+}
+
 $arResult['PRICE'] = Array (
     'VALUE' => floatval($arResult['PROPERTIES'][$arParams['PRICE_CODE']]['VALUE']),
     'DISCOUNT_VALUE' => floatval($arResult['PROPERTIES']['OLD_PRICE']['VALUE'])

@@ -117,7 +117,7 @@ $currentUri .= $_SERVER["HTTP_HOST"] . $APPLICATION->GetCurUri();
 </div>
 <div class="tabs-content">
     <? if (count($arResult['ACTIVE_PROPERTIES']) > 0): ?>
-        <div class="tab-content active" id="tab-product-characteristics">
+		<div class="tab-content active" id="tab-product-characteristics">
             <div class="features">
                 <? foreach ($arResult['ACTIVE_PROPERTIES'] as $arProperty): ?>
                     <div class="feature">

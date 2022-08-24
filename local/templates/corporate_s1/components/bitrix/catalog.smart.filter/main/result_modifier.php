@@ -4,6 +4,13 @@ $arParams["POPUP_POSITION"] = (isset($arParams["POPUP_POSITION"]) && in_array($a
 
 foreach($arResult["ITEMS"] as $key=>$item)
 {
-    if(!in_array($item['CODE'], $arParams['ALLOWED_PROPS']))
-        unset($arResult["ITEMS"][$key]);
+	if(empty($arParams['FILTER_PROPERTY_CODE_DISALLOW']))
+	{
+		if(!in_array($item['CODE'], $arParams['ALLOWED_PROPS']))
+			unset($arResult["ITEMS"][$key]);
+	}else{
+		if(in_array($item['CODE'], $arParams['FILTER_PROPERTY_CODE_DISALLOW']))
+			unset($arResult["ITEMS"][$key]);
+
+	}
 }

@@ -224,8 +224,15 @@ $APPLICATION->SetTitle("Каталог товаров");
 			78 => "ms_tsvet",
 			79 => "ms_chislo_stupeney_ochistki",
 			80 => "ms_shirina_mm",
-			81 => "",
+			81 => "COUNTRY",
 		),
+		"FILTER_PROPERTY_CODE_DISALLOW"=>[
+			1=>"PRICE_MARKET",
+			2=>"OLD_PRICE",
+			3=>"ms_shtrikhkod",
+			4=>"PRICE",
+			
+		],
 		"FILTER_PRICE_CODE" => array(
 		),
 		"USE_REVIEW" => "N",

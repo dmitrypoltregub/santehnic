@@ -189,6 +189,7 @@ $arParams['FILTER_VIEW_MODE'] = (empty($arParams['FILTER_VIEW_MODE'])) ? 'vertic
                         "PAGER_PARAMS_NAME" => $arParams["PAGER_PARAMS_NAME"],
                         "INSTANT_RELOAD" => $arParams["INSTANT_RELOAD"],
                         "ALLOWED_PROPS"=>$arParams["FILTER_PROPERTY_CODE"],
+						'FILTER_PROPERTY_CODE_DISALLOW'=>$arParams['FILTER_PROPERTY_CODE_DISALLOW'],
                             ), $component, array('HIDE_ICONS' => 'Y')
                     );
                     ?>

@@ -6,7 +6,7 @@ $strReferer2 = htmlspecialchars($_GET["referer2"]);
 header("Content-Type: text/xml; charset=UTF-8");
 echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2022-08-23 08:05">
+<yml_catalog date="2022-08-24 08:08">
 <shop>
 <name>Сантехник Маркет</name>
 <company>Сантехник Маркет</company>
@@ -568,6 +568,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Газовая горелка с пьезоподжигом</name>
 <description></description>
 </offer>
+<offer id="5757" available="true">
+<url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/kleykie_lenty/streych_plenka_2_1_kg/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>680</price>
+<currencyId>RUB</currencyId>
+<categoryId>855</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/145/6q1fq8sk41pakl3xvkc331ea872iyb4v.jpg</picture>
+<name>Стрейч-пленка больш.</name>
+<description></description>
+</offer>
 <offer id="5762" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/pravila/pravilo_1_5_m_sibin_10725_1_5_10725_1_5/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>700</price>
@@ -730,15 +739,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Круг отрезной алмазный DEXX влажная резка, сплошной, для УШМ, 125х5х22,2мм 36703-125_z01</name>
 <description></description>
 </offer>
-<offer id="5892" available="true">
-<url>https://santehnic-market.ru/catalog/elektrotovary/dvernye_zvonki_i_knopki/zvonok_svetozar_din_don_maestro_elektricheskiy_16_melodiy_s_regulirovkoy_zvuka_220v_sv_58053_sv_5805/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>900</price>
-<currencyId>RUB</currencyId>
-<categoryId>550</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/169/v1d38aidjt3hm0ca675mw8naeajp1l6x.jpg</picture>
-<name>Звонок СВЕТОЗАР &quot;ДИН-ДОН Маэстро&quot; электрический 16 мелодий, с регулировкой звука, ~220В SV-58053</name>
-<description></description>
-</offer>
 <offer id="5897" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/rez_bonareznoy_instrument/plashkoderzhatel_vorotok_dlya_plashek_m_55_x_3_4_stm_51500055/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>505</price>
@@ -755,6 +755,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>666</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/e10/5dny5zv76xrsyv8rpnpwq44zpbjslwka.png</picture>
 <name>Выключатель для настенного светильника с цепочкой 270 мм Silver REXANT</name>
+<description></description>
+</offer>
+<offer id="5934" available="true">
+<url>https://santehnic-market.ru/catalog/elektrotovary/rozetki_i_vyklyuchateli/rozetki_i_vyklyuchateli_vstraivaemye/blok_kombinirovannyy_tdm_bkvr_3_klavishi_s_z_k_s_zashchitnymi_shtorkami_sq1813_0003_1417106_sq1813_0/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>550</price>
+<currencyId>RUB</currencyId>
+<categoryId>508</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/cbe/kfecanotf5x1i4d3352hlr52p4htbsv1.jpg</picture>
+<name>Блок комбинированный TDM БКВР, 3 клавиши, с з/к, с защитными шторками, SQ1813-0003 1417106</name>
 <description></description>
 </offer>
 <offer id="5936" available="true">
@@ -948,7 +957,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="6102" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/skrebok_zubr_ekspert_po_kafelyu_s_karbidnym_napyleniem_2_lezviya_33417_33417/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>385</price>
+<price>380</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/c10/sid8i5e8435vu6ebowbcgd0sxj7g8qn1.jpg</picture>
@@ -1866,7 +1875,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="6598" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/gladilka_stayer_master_stal_naya_s_plastmassovoy_ruchkoy_zubchataya_4kh4mm_120kh280mm_08012_04_08012/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/47e/tn11tjkbf7gmupsw4dee7eq622n5ssva.jpg</picture>
@@ -1934,15 +1943,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>766</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/664/zu506xasldw2rpm5a7of9fiivrwu4c1e.jpg</picture>
 <name>ВЕДРО ШТУКАТУРНОЕ ПРОРЕЗИНЕННОЕ 20 Л (1/40)</name>
-<description></description>
-</offer>
-<offer id="6632" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_stayer_master_stupenchatoe_po_stalyam_i_tsvet_met_stal_hss_d_4_20mm_9stup_d_4_20_l_75_mm_trekh/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1105</price>
-<currencyId>RUB</currencyId>
-<categoryId>743</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/31f/py9xxml8a1xj46c8r0wl1yjiwwby3is7.jpg</picture>
-<name>Сверло STAYER &quot;MASTER&quot; ступенчатое по сталям и цвет.мет., сталь HSS, d=4-20мм, 9ступ.d 4-20, L-75 мм,трехгран. хвост. 8мм 29660-4-20-9</name>
 <description></description>
 </offer>
 <offer id="6638" available="true">
@@ -2550,7 +2550,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="6989" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/kovsh_sibin_shtukaturnyy_s_derevyannoy_ruchkoy_08245_08245/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>385</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/42d/z9qtnu56bjh95cvtuhzdmrkb8e3pv9t2.jpg</picture>
@@ -2676,7 +2676,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="7037" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/skrebok_dexx_po_kafelyu_s_karbidnym_napyleniem_1_lezvie_33413_33413/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/7e7/7b2ek9i7p3wp0y8adm8invn3ttt26utl.jpg</picture>
@@ -2910,7 +2910,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="7238" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/zamok_magnitnyy_dlya_kafelya_4_sht_stayer_3395_b_3395_b/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>490</price>
+<price>400</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/47d/ik1cskklvhtgmglrzxlw3f7322m88k3g.png</picture>
@@ -2989,15 +2989,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Валик прижимной STAYER &quot;MASTER&quot; в сборе, резиновый, бюгель 6мм, 46x180мм 0391-18</name>
 <description></description>
 </offer>
-<offer id="7281" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_stayer_master_mnogofunktsional_nyy_c_plastmassovoy_ruchkoy_10031_10031/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>230</price>
-<currencyId>RUB</currencyId>
-<categoryId>584</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/f7c/ofjae0x09erqle8y3ey1x46lzktwqf6m.jpg</picture>
-<name>Шпатель STAYER &quot;MASTER&quot; многофункциональный c пластмассовой ручкой 10031</name>
-<description></description>
-</offer>
 <offer id="7282" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/slesarnyy_i_stolyarnyy_instrument/nozhi_nozhnitsy_i_lezviya/skrebok_stayer_master_metallicheskiy_s_vydvizhnym_lezviem_40mm_08535_z01_08535_z01/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>230</price>
@@ -3009,7 +3000,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="7283" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/rezhushchiy_element_zubr_dlya_plitkorezov_art_33195_khkh_22_2mm_33205_22_10_33205_22_10/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>280</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/f6e/svfhjth269f0oj8oh6vo2ay20pfi67ae.png</picture>
@@ -3054,7 +3045,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="7301" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/zubr_ekspert_29966_h3_nabor_sverl_frezeroval_nykh_po_derevu_i_tonkomu_listovomu_metallu_shestigranny/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>765</price>
+<price>750</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/d97/e98ixctpfcbpgcdtrqsvelre0ysxwhzc.jpg</picture>
@@ -3619,18 +3610,9 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Консоль Walraven 30 x 30 х 2 х 500 мм WM2, BIS RapidRail 6603250</name>
 <description></description>
 </offer>
-<offer id="7781" available="true">
-<url>https://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/zamki_i_lichinki/zamki_dvernye/zamok_zashchelka_mekhanizm_vreznoy_santekhnicheskiy_magnitnyy_apecs_5300_m_wc_ab_5300_m_wc_ab/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>690</price>
-<currencyId>RUB</currencyId>
-<categoryId>848</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/6e6/4iyxsp85imzd592dnlrkhc7kzlws140b.jpg</picture>
-<name>Замок-защелка (механизм) врезной сантехнический магнитный Apecs 5300-M-WC-AB</name>
-<description></description>
-</offer>
 <offer id="7783" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_professional_fasadnyy_nerzhaveyushchiy_2k_ruchka_350mm_10049_35_z03_10049_35_z03/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1140</price>
+<price>800</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/8b7/0yx3dg8jtae3l6lvgxl2h6zglm0h7dpq.jpg</picture>
@@ -3810,7 +3792,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8078" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/steklorez_zubr_ekspert_almaznyy_s_plastikovoy_ruchkoy_3362_3362/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>615</price>
+<price>550</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/a00/d2dgv6s1a3mms5tr714cx3sgtp1vzyfr.jpg</picture>
@@ -3864,7 +3846,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8118" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/zubr_ekspert_480kh130_mm_gladilka_shveytsarskaya_nerzhaveyushchaya_s_derevyannoy_ruchkoy_0807_0807/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1140</price>
+<price>1000</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/011/u63h5ciecz4ou1c5k3cc3iw3ycahmiog.jpg</picture>
@@ -4206,7 +4188,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8519" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_professional_profilirovannoe_nerzhaveyushchee_polotno_2k_ruchka_60mm_10049_06_z03_10049/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/914/rj92dq9dupqot65uz6ur2otl35162c2z.jpg</picture>
@@ -4490,6 +4472,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>614</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/77a/vht2p48b0mjlk5b6m7xay17p1wu99lo2.png</picture>
 <name>Стекло защитное для экрана телефона iPhone 6 Plus 5D (черное)</name>
+<description></description>
+</offer>
+<offer id="8670" available="true">
+<url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/rastvoriteli/ochistitel_kudo_udalitel_germetika_universal_nyy_0_21_l_krs_920_krs_920/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>285</price>
+<currencyId>RUB</currencyId>
+<categoryId>741</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/609/k6vu5d06f6fhs2di17iy28u30pc6zpl6.png</picture>
+<name>Очиститель KUDO Удалитель герметика универсальный 0.21 л KRS 920</name>
 <description></description>
 </offer>
 <offer id="8672" available="true">
@@ -4827,7 +4818,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8927" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/shchiptsy_stayer_dlya_kafelya_195mm_3358_3358/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>435</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/63d/5bqgxzdoji90mkgv3yuaffonxc4fxobe.jpg</picture>
@@ -5128,7 +5119,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <currencyId>RUB</currencyId>
 <categoryId>547</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/059/y3cyy2m0d3pp24zqe8sqbcm800x7lt6s.jpg</picture>
-<name>Розетка Schneider Electric PA16-011BI четырехместная с з/контактом, со шторками, открытой установки</name>
+<name>Розетка Schneider Electric PA16-011B тройная с з/контактом, без шторок, открытой установки</name>
 <description></description>
 </offer>
 <offer id="9160" available="true">
@@ -6024,7 +6015,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10299" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_stayer_master_stupenchatoe_po_stalyam_i_tsvet_met_stal_hss_d_4_30mm_14stup_d4_30_l_100mm_trekh/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>2070</price>
+<price>1300</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/9b7/dmlg7wyh4yfsdl70q1mg3yq5tjk2m0j2.png</picture>
@@ -6508,15 +6499,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>822 Соединитель-колено (вертикальный) плоский-круглый 60x204мм / 125мм вентиляционный Vents (Вентс) 12510526</name>
 <description></description>
 </offer>
-<offer id="10731" available="true">
-<url>https://santehnic-market.ru/catalog/ventilyatsiya/reshetki_ventilyatsionnye/reshetka_ventilyatsionnaya_vents_vents_mv_120_s_186_mm_x_186_mm_10040575_10040575/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
-<currencyId>RUB</currencyId>
-<categoryId>685</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/376/cr9svfqvvnilpl60kdwq9sj26moc6f4a.jpg</picture>
-<name>Решетка вентиляционная Vents (Вентс) МВ 120 с (186 мм x 186 мм) 10040575</name>
-<description></description>
-</offer>
 <offer id="10732" available="true">
 <url>https://santehnic-market.ru/catalog/ventilyatsiya/reshetki_ventilyatsionnye/reshetka_ventilyatsionnaya_vents_vents_mv_170_s_299_mm_x_221_mm_010602874_010602874/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>490</price>
@@ -6609,7 +6591,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10790" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_stayer_master_stupenchatoe_po_stalyam_i_tsvet_met_stal_hss_d_4_39mm_14stup_d4_39_l_113_mm_tre/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>3040</price>
+<price>2000</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/4c7/xjso2226cabue8c3v299wwuvyyde90i8.png</picture>
@@ -6807,7 +6789,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10861" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/stayer_ekhpert_480_130kh480_mm_gladilka_shveytsarskaya_nerzhaveyushchaya_s_derevyannoy_ruchkoy_0803/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>990</price>
+<price>1000</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/aef/tknn2rzlrap1tz82fm09s1ygv4u82okh.jpg</picture>
@@ -7059,7 +7041,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11159" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/zubr_ekspert_130kh280_mm_gladilka_shtukaturnaya_nerzhaveyushchaya_s_derevyannoy_bukovoy_ruchkoy_0806/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>765</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/f19/f0zlyhd3odz4pr2vpi5cme8hpi4yzkkc.jpg</picture>
@@ -7068,7 +7050,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11176" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/rezhushchiy_element_stayer_dlya_plitkorezov_art_3318_khkh_22_4_6mm_3320_22_4_6/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>345</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/d64/20kft1psouvz4dnf5lanw3kvu0wdvzu7.png</picture>
@@ -7455,7 +7437,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11574" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/gladilka_stayer_master_stal_naya_s_plastmassovoy_ruchkoy_zubchataya_6kh6mm_120kh280mm_08012_06_08012/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/7aa/nzpiwn4auhrkibgq3zslh690e1x4nft7.jpg</picture>
@@ -7464,7 +7446,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11575" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_naya_lopatka_kraftool_s_2_komponent_ruchk_profilirov_nerzhav_polotno_32mm_10035_030_10035_03/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/ced/1shmat728c34xtx3e0dxglqlipyrprgi.jpg</picture>
@@ -7473,7 +7455,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11579" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/rezhushchiy_element_zubr_dlya_plitkorezov_art_33191_khkh_15_1_5mm_33201_15_1_5_33201_15_1_5/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/29b/lx1okkz356n7epth7brv9fl02amge4hs.png</picture>
@@ -7831,15 +7813,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Набор STAYER Ключи &quot;STANDARD&quot; имбусовые, 2 - 10мм, 8 шт 27405-H8</name>
 <description></description>
 </offer>
-<offer id="11785" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/klyuchi_santekhnicheskie_i_avtomobil_nye/gaechnye_klyuchi_i_golovki/nabor_stayer_master_klyuchi_imbusovye_korotkie_cr_v_satinirovannoe_pokrytie_plastikovyy_derzhatel_t1/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
-<currencyId>RUB</currencyId>
-<categoryId>796</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/0cf/lqx6n2e0tu6k0us9qq9oc2txozpi9l1h.jpg</picture>
-<name>Набор STAYER &quot;MASTER&quot;: Ключи имбусовые короткие, Cr-V, сатинированное покрытие, пластиковый держатель, Т10-Т50мм, 9 предметов 2743-H9</name>
-<description></description>
-</offer>
 <offer id="11786" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/klyuchi_santekhnicheskie_i_avtomobil_nye/gaechnye_klyuchi_i_golovki/nabor_klyuchi_stayer_trubchatye_6_22_mm_10_predmetov_2719_h10_2719_h10/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>1040</price>
@@ -8004,7 +7977,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11877" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_professional_profilirovannoe_nerzhaveyushchee_polotno_2k_ruchka_80mm_10049_08_z03_10049/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>355</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/e06/h8s4kpoqx8fua3am4chpfb9osdmubdtk.png</picture>
@@ -8049,7 +8022,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11939" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_stayer_master_stupenchatoe_po_stalyam_i_tsvet_met_stal_hss_d_4_12mm_5stup_d_4_6_8_10_12_l_65m/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>625</price>
+<price>550</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/426/5g0bll9jgwvrjr3dqzhij7qwx61e8cn5.png</picture>
@@ -8315,15 +8288,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>606</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/a2c/pc5yxamujw4ox3d1s3dz1kr5s31sw0d6.jpg</picture>
 <name>Набор ЗУБР: Пинцеты, нержавеющая сталь, прямой, заостренные губки, изогнутый, самозажимной прямой, плоские и широкие губки, 120мм 22215-H4</name>
-<description></description>
-</offer>
-<offer id="12074" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/kisti/kist_anza_basic_xp_ploskaya_sintetika_50_mm_147550_147550/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>415</price>
-<currencyId>RUB</currencyId>
-<categoryId>817</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/672/0s5te7gerep7l1xq3ilftapg2okkqte0.jpg</picture>
-<name>Кисть ANZA BASIC XP плоская синтетика 50 мм 147550</name>
 <description></description>
 </offer>
 <offer id="12075" available="true">
@@ -8679,7 +8643,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12244" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/steklodomkrat_odinarnyy_mini_50_mm_5_kg_sto_71500050/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/873/80ak6v49obn5agafoj39r7sluoq4t30z.png</picture>
@@ -8715,7 +8679,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12306" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_naya_lopatka_kraftool_s_2_komponent_ruchk_profilirov_nerzhav_polotno_65mm_10035_065_10035_06/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>535</price>
+<price>500</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/477/itdb30u7uc65vujba2es65amhvjb4k4n.jpg</picture>
@@ -8724,7 +8688,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12307" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_naya_lopatka_kraftool_s_2_komponent_ruchk_profilirov_nerzhav_polotno_75mm_10035_075_10035_07/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>615</price>
+<price>600</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/98a/t101keysy9vtphsiz71w40g9kupa328e.jpg</picture>
@@ -8733,7 +8697,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12309" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_naya_lopatka_kraftool_s_2_komponent_ruchk_profilirov_nerzhav_polotno_100mm_10035_100_10035_1/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>685</price>
+<price>600</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/42b/txp0a5p5lis7lbggb72z27h1dzl5ddp8.jpg</picture>
@@ -8742,7 +8706,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12310" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_naya_lopatka_kraftool_s_2_komponent_ruchk_profilirov_nerzhav_polotno_125mm_10035_125_10035_1/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>765</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/04b/qif2b4ohovnrokbkv1p0173v3rxv5m73.jpg</picture>
@@ -8751,7 +8715,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12311" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_kraftool_fasadnyy_s_dvukhkomponentnoy_ruchkoy_nerzhaveyushchee_polotno_180mm_10036_180_10036/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1040</price>
+<price>900</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/0aa/tvo3j1x70noag0dw5oq8plk1gbu0de4e.jpg</picture>
@@ -8760,7 +8724,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12312" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_kraftool_fasadnyy_s_dvukhkomponentnoy_ruchkoy_nerzhaveyushchee_polotno_250mm_10036_250_10036/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1190</price>
+<price>1100</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/8fe/frxwx9gp2q8bntht8ioey5dd41r88ny9.jpg</picture>
@@ -8769,7 +8733,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12313" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_kraftool_fasadnyy_s_dvukhkomponentnoy_ruchkoy_nerzhaveyushchee_polotno_300mm_10036_300_10036/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1370</price>
+<price>1200</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/593/nntmkk34af3em4fep05ibozjqsv91s00.jpg</picture>
@@ -8778,7 +8742,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12314" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_kraftool_fasadnyy_s_dvukhkomponentnoy_ruchkoy_nerzhaveyushchee_polotno_350mm_10036_350_10036/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1600</price>
+<price>1400</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/08f/1inhjsgqxux0clb2avnpyyr2zlfrkviw.jpg</picture>
@@ -8787,7 +8751,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12315" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_ekspert_malyarnyy_fasadnyy_nerzhaveyushchee_polotno_2_kh_komp_rukoyatka_200mm_10049_20/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>685</price>
+<price>600</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/09c/c4aalxjazd4pth0p1ejv38t0oxiufkzk.png</picture>
@@ -8796,7 +8760,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12316" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_ekspert_malyarnyy_fasadnyy_nerzhaveyushchee_polotno_2_kh_komp_rukoyatka_250mm_10049_25/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>765</price>
+<price>650</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/b00/gorvvgv0sux3vrqio5uj5tphemct4s4u.jpg</picture>
@@ -8805,7 +8769,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12317" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_professional_fasadnyy_nerzhaveyushchiy_2k_ruchka_470mm_10049_47_z03_10049_47_z03/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1520</price>
+<price>1000</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/f7a/gss0zove6gepxlsn0rphpdg0crfb8b1k.jpg</picture>
@@ -8875,15 +8839,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Сверло удлиненное по металлу 8 x 300 мм</name>
 <description></description>
 </offer>
-<offer id="12356" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/nabor_sverl_po_metallu_10_sht_d_1_10_mm_bystrorezhushchaya_stal_klass_v_zubr_29605_h10_master_10_296/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>970</price>
-<currencyId>RUB</currencyId>
-<categoryId>743</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/c93/9yxjjinijxexhspxq84dmi88f1nexg65.png</picture>
-<name>Набор сверл по металлу 10 шт (d=1-10 мм), быстрорежущая сталь, класс В, ЗУБР 29605-H10, МАСТЕР-10</name>
-<description></description>
-</offer>
 <offer id="12371" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/rez_bonareznoy_instrument/plashkoderzhatel_vorotok_dlya_plashek_m_38_x_12_16_mm_stm_51500028/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>415</price>
@@ -8913,7 +8868,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12408" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/mikser_sibin_dlya_peschano_graviynykh_smesey_sds_khvostovik_100kh600mm_06049_10_60_06049_10_60/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>535</price>
+<price>500</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/880/we66ky9ks774tj7ppbtscl07nf439qju.jpg</picture>
@@ -8990,6 +8945,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>788</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1fe/fg08d2wtrrgz3jvfc6aa6vsquxpw3ghm.jpg</picture>
 <name>Клей строительный для зеркал и стекла TYTAN  (380 г) бежевый</name>
+<description></description>
+</offer>
+<offer id="12484" available="true">
+<url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/klei/kley_montazhnyy_sverkhsil_nyy_titebond_heavy_duty_296_ml_bezhevyy/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>435</price>
+<currencyId>RUB</currencyId>
+<categoryId>788</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/51b/kcd1hx8tpxyzlx4e6hnnbjsvb7shugq7.jpg</picture>
+<name>Клей монтажный сверхсильный Titebond HEAVY DUTY 296 мл бежевый</name>
 <description></description>
 </offer>
 <offer id="12485" available="true">
@@ -9145,15 +9109,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Набор кольцевых пил (коронок) по дереву 16 предмет.: 19мм, 22мм, 30мм, 32мм, 38мм, 44мм, 51мм, 67мм, 76мм, 89мм, 102мм, 127мм</name>
 <description></description>
 </offer>
-<offer id="12585" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/steklorez_stayer_standard_plastmassovyy_3_rolika_33618_z01_33618_z01/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>205</price>
-<currencyId>RUB</currencyId>
-<categoryId>765</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/7ec/npve53wz5n1f45ifrykmfhsudzgz3zd2.jpg</picture>
-<name>Стеклорез STAYER &quot;STANDARD&quot;, пластмассовый, 3 ролика 33618_z01</name>
-<description></description>
-</offer>
 <offer id="12586" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/slesarnyy_i_stolyarnyy_instrument/izmeritel_nyy_i_razmetochnyy_instrument/ruletka_sibin_obrezinennyy_plastikovyy_korpus_7_5m_25mm_34019_08_25_34019_08_25/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>460</price>
@@ -9219,7 +9174,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12622" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/zubr_ekspert_130kh280_mm_4kh4_mm_gladilka_shtukaturnaya_zubchataya_nerzhaveyushchaya_s_derevyannoy_b/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>615</price>
+<price>400</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/ab7/rgsjmprirmyd13l1j9cvsc4o9kjb9y6i.jpg</picture>
@@ -9300,7 +9255,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12719" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/kel_ma_stayer_profi_dlya_vneshnikh_uglov_nerzhaveyushchee_polotno_80kh60mm_0835_0835/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/753/68f2uf9somuf3o0qajfvd0px5ps21krf.jpg</picture>
@@ -9777,7 +9732,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13116" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_ekspert_malyarnyy_fasadnyy_nerzhaveyushchee_polotno_2_kh_komp_rukoyatka_150mm_10049_15/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>615</price>
+<price>550</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/f4b/l2sq1hen5r9zf7kn1j15s53m1hz7u88g.jpg</picture>
@@ -10101,7 +10056,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13416" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/kusachki_stayer_profi_usilennye_po_kafelyu_3356_3356/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>735</price>
+<price>800</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/0fd/v9c04udw5jq64g12maqyupqthi1t65ng.jpg</picture>
@@ -10164,7 +10119,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13469" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/malyarnyy_instrument/shpateli/shpatel_zubr_professional_profilirovannoe_nerzhaveyushchee_polotno_2k_ruchka_100mm_10049_10_z03_1004/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>385</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>584</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/6cb/8knhjlme10iv3e9g8i4f30fmgb725ljn.jpg</picture>
@@ -10659,7 +10614,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13664" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/zubr_ekspert_130kh280_mm_6kh6_mm_gladilka_shtukaturnaya_zubchataya_nerzhaveyushchaya_s_derevyannoy_b/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>615</price>
+<price>400</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/5ce/qlsg2368riyijilwouqua43rnrr2pbjr.jpg</picture>
@@ -10848,7 +10803,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13787" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/plitkorez_kusachki_stayer_s_metallicheskoy_guboy_200mm_3351_3351/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>535</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/da6/pi0vguckqjl7smt0vlsi5fm81i00e30m.jpg</picture>
@@ -11523,7 +11478,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="14010" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/steklorez_zubr_ekspert_maslyanyy_s_metallicheskim_korpusom_33684_33684/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>435</price>
+<price>400</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/3c5/65qv9imuwi0klubro3dubjgr5b5l655f.jpg</picture>
@@ -11676,7 +11631,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="14090" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/steklodomkrat_troynoy_125_mm_140_kg_sto_71700125/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1070</price>
+<price>900</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1f0/2o8lxw380uo16pnmlnm0vkqzd0p5hl09.png</picture>
@@ -11728,18 +11683,9 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Адаптер STAYER гибкий, 300мм 25512-30</name>
 <description></description>
 </offer>
-<offer id="14106" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/kleevye_pistolety_i_sterzhni/sterzhni_stayer_master_dlya_kleevykh_termokleyashchikh_pistoletov_prozrachnye_po_steklu_i_plastiku_1/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>310</price>
-<currencyId>RUB</currencyId>
-<categoryId>873</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/b16/r94adje6j8fv1s5ig2ctg27u3afvka11.jpg</picture>
-<name>Стержни STAYER &quot;MASTER&quot; для клеевых (термоклеящих) пистолетов, прозрачные по стеклу и пластику, 11х200мм, 6шт 2-06821-T-S06</name>
-<description></description>
-</offer>
 <offer id="14108" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/kleevye_pistolety_i_sterzhni/pistolet_stayer_master_kleevoy_termokleyashchiy_elektricheskiy_10vt_220v_7mm_2_06801_10_07_z01_2_068/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>840</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>873</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1c8/u5se6ywjzcz07go8i8vxt0vxt5ojycju.jpg</picture>
@@ -14239,13 +14185,13 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Смеситель встраиваемый с гигиеническим душем HANSEN H6112</name>
 <description></description>
 </offer>
-<offer id="15179" available="true">
-<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/unitazy_i_aksessuary/krepezh_dlya_siden_ya_unitaza/kreplenie_dlya_kryshki_siden_ya_unitaza_standartnoe_verkhnee_dlya_skrytogo_montazha_metallicheskoe_h/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1455</price>
+<offer id="15178" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnicheskie_rez_bovye_fitingi/sshityy_polietilen/sshityy_polietilen_rehau/instrument_dlya_sshitogo_polietilena_rehau/mekhanicheskiy_press_instrument_apparat_universal_nyy_vieir_dlya_trub_i_fitingov_rehau/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>18000</price>
 <currencyId>RUB</currencyId>
-<categoryId>1001</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/9fb/84pbs5e9f18a57utwqjjmzt3n4yj0gto.jpg</picture>
-<name>Крепление для крышки-сиденья унитаза стандартное, верхнее (для скрытого монтажа), металлическое Haro (Харо) D1302H 402923</name>
+<categoryId>1011</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/f95/cav0tw9uyec243j8gji880fq4kt5h3mi.jpg</picture>
+<name>Механический пресс инструмент (аппарат) универсальный ViEiR для труб и фитингов Rehau</name>
 <description></description>
 </offer>
 <offer id="15183" available="true">
@@ -22410,6 +22356,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Регулирующий проходной коллектор евроконус уплотнение ВР-НР 1&quot; с 4 отводами 3/4&quot; FAR FK 3824 134 EU</name>
 <description></description>
 </offer>
+<offer id="17769" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/kollektory_i_aksessuary/komplektuyushchie_k_kollektoram/kreplenie_st_fix_dlya_kollektora_far_3_4_kruglye_s11200_s11200/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>270</price>
+<currencyId>RUB</currencyId>
+<categoryId>1193</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/553/rb44zim2v48biath1zmnt3d7o62mk6qe.png</picture>
+<name>Крепление St_fix для коллектора FAR 3/4&quot; круглые S11200</name>
+<description></description>
+</offer>
 <offer id="17770" available="true">
 <url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/smesiteli_i_komplektuyushchie/ruchnoy_dush/leyka_dlya_dusha_massazhnaya_3_kh_rezhimnaya_kaiser_sh_008_khrom_sh_008/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>660</price>
@@ -22975,15 +22930,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>932</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/6f0/qela6qxb19c4hyvluvet1vubys3lr935.jpg</picture>
 <name>8020 Канал прямоугольный (плоский) вентиляционный Vents (Вентс) 60 х 204 мм х 2 м 12510075</name>
-<description></description>
-</offer>
-<offer id="17965" available="true">
-<url>https://santehnic-market.ru/catalog/ventilyatsiya/vozdukhovody_ploskie/8281_koleno_soedinitel_gorizontal_noe_pod_uglom_90_vents_vents_60_kh_204_mm_12510382_12510382/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
-<currencyId>RUB</currencyId>
-<categoryId>932</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/d3c/1kfw471t6q56jn5883ebpg1y3q9kxvfx.jpg</picture>
-<name>8281 Колено (соединитель) горизонтальное под углом 90° Vents (Вентс) 60 х 204 мм 12510382</name>
 <description></description>
 </offer>
 <offer id="17967" available="true">
@@ -27027,15 +26973,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Гибкая подводка для смесителя 1/2 &quot; - М10 , гайка - штуцер , 200 см (пара) Victoria</name>
 <description></description>
 </offer>
-<offer id="19004" available="true">
-<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/podvodki_gibkie/podvodki_dlya_vody/gibkaya_podvodka_dlya_vody_1_2_gayka_gayka_100_sm_victoria_90_100/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>266.81</price>
-<currencyId>RUB</currencyId>
-<categoryId>1041</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/ad2/18u8r4yd4c61g24t3hm3kr8iu7pea9gm.jpg</picture>
-<name>Гибкая подводка для воды 1/2 &quot; , гайка - гайка , 100 см Victoria</name>
-<description></description>
-</offer>
 <offer id="19006" available="true">
 <url>https://santehnic-market.ru/catalog/santekhnicheskie_rez_bovye_fitingi/polipropilenovye_truby_i_fitingi/polipropilen_belyy/amerikanki_belye/belaya_polipropilenovaya_amerikanka_f_20_3_4_vnut_spk_2130m1_020025/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>325.6</price>
@@ -28343,7 +28280,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="19309" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/instrument_dlya_ukladki_plitki/mikser_sibin_dlya_peschano_graviynykh_smesey_shestigrannyy_khvostovik_80kh400mm_06048_08_40_06048_08/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>385</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>765</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cf7/wmn0450edje0dwu5kyaolb90hghsb05b.jpg</picture>
