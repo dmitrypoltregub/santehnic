@@ -1,4 +1,4 @@
-<a href="<?=($APPLICATION->GetCurPage() != "/") ? SITE_DIR : 'javascript::void();'?>">
+<a <?=($APPLICATION->GetCurPage() != "/") ? 'href="/"' : '';?>">
     <? $arLogo = \Nextype\Corporate\CCorporate::getSiteLogo(); ?>
     <? if (!empty($arLogo['SRC'])): ?>
         <img src="<?=$arLogo['SRC']?>" alt="<?=$arLogo['ALT']?>" title="<?=$arLogo['TITLE']?>">

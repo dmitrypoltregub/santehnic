@@ -1,7 +1,28 @@
 .span-active {
-    font-size: 0.75em;
-    color: #7d8387;
-    letter-spacing: -0.03em;
-    text-decoration: none;
 
+    text-decoration: none;
+    cursor:default;
+
+}
+.span-active:hover{
+    color:#7d8387;
+}
+
+.links li{
+    display: inline-block;
+
+}
+.nav-item:not(:last-child):after {
+    content: '\f2fb';
+    display: inline-block;
+    margin: 0 3px 0 8px;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    color: #09d;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size:12px;
+}
+.breadcrumbs .links .link:not(:last-child):after {
+    display: none;
 }
