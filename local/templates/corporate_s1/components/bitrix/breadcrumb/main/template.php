@@ -27,7 +27,7 @@ for($index = 0; $index < $itemSize; $index++)
 {
 	$title = htmlspecialcharsex($arResult[$index]["TITLE"]);
 
-	
+
 
 	if($arResult[$index]["LINK"] <> "" && $index != $itemSize-1)
 	{
@@ -37,7 +37,7 @@ for($index = 0; $index < $itemSize; $index++)
 	else
 	{
 		$strReturn .= '
-			<a href="'.$arResult[$index]["LINK"].'" class="link active">'.$title.'</a>';
+			<span class="span-active">'.$title.'</span>';
 	}
 }
 

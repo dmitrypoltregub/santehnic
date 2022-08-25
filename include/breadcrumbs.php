@@ -3,7 +3,7 @@
 $APPLICATION->IncludeComponent(
         "bitrix:breadcrumb", "main", Array(
             "PATH" => "",
-            "START_FROM" => "0"
+            "START_FROM" => "1"
         )
 );
 ?>
