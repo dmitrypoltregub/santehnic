@@ -1,6 +1,6 @@
 <?if (!isset($_GET["referer1"]) || strlen($_GET["referer1"])<=0) $_GET["referer1"] = "yandext";?><? $strReferer1 = htmlspecialchars($_GET["referer1"]); ?><?if (!isset($_GET["referer2"]) || strlen($_GET["referer2"]) <= 0) $_GET["referer2"] = "";?><? $strReferer2 = htmlspecialchars($_GET["referer2"]); ?><? header("Content-Type: text/xml; charset=windows-1251");?><? echo "<"."?xml version=\"1.0\" encoding=\"windows-1251\"?".">"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2022-08-24 09:55">
+<yml_catalog date="2022-08-25 09:59">
 <shop>
 <name>Сантехник Маркет</name>
 <company>Сантехник Маркет</company>
@@ -597,20 +597,9 @@
 <name>Звонок беспроводной белый D04 LEXMAN 7 мелодий</name>
 <description></description>
 </offer>
-<offer id="8220" available="true">
-<url>http://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/zubr_5sht_60_95_32mm_pila_segmentnaya_nabornaya_po_derevu_5_poloten_60_67_74_83_95x32_mm_zubr_29595/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=sverla_koronki_po_derevu&amp;utm_term=8220</url>
-<price>1311</price>
-<purchase_price>536</purchase_price>
-<currencyId>RUB</currencyId>
-<vendor></vendor>
-<categoryId>553</categoryId>
-<picture>http://santehnic-market.ru/upload/iblock/125/nvtba67n7kb5d0hirmdk9vq1vcqnmfp0.jpg</picture>
-<name>ЗУБР 5шт(60-95/32мм), пила сегментная наборная по дереву, 5 полотен: 60-67-74-83-95x32 мм, ЗУБР 29595-H5-32</name>
-<description></description>
-</offer>
 <offer id="9068" available="true">
 <url>http://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/kraftool_5sht_68_100_32mm_pila_segmentnaya_nabornaya_po_derevu_68_74_80_90_100x32_mm_29584_h5_32_295/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=sverla_koronki_po_derevu&amp;utm_term=9068</url>
-<price>2191</price>
+<price>1725</price>
 <purchase_price>813</purchase_price>
 <currencyId>RUB</currencyId>
 <vendor></vendor>
@@ -1554,12 +1543,12 @@
 </offer>
 <offer id="8151" available="true">
 <url>http://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/nabor_sverl_po_metallu_10_sht_d_1_10_mm_prof_v_zubr_29621_h10_29621_h10/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=sverla_po_metallu&amp;utm_term=8151</url>
-<price>2151</price>
+<price>1610</price>
 <purchase_price>518</purchase_price>
 <currencyId>RUB</currencyId>
 <vendor></vendor>
 <categoryId>743</categoryId>
-<picture>http://santehnic-market.ru/upload/iblock/429/r3m57ppnsxuicl2i85h2u1mg71n6i5uy.jpg</picture>
+<picture>http://santehnic-market.ru/upload/iblock/b25/hwpf2vbq3n2gmusxvvbx19ihlpf6kfsj.jpg</picture>
 <name>Набор сверл по металлу 10 шт (d=1-10 мм), Проф-В, ЗУБР 29621-H10</name>
 <description></description>
 </offer>
@@ -1686,7 +1675,7 @@
 </offer>
 <offer id="13581" available="true">
 <url>http://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/koronki_dlya_sverleniya/nabor_koronok_chashek_zubr_professional_c_karbid_vol_framovym_naneseniem_6_koronok_chashek_o_22_28_3/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=koronki_dlya_sverleniya&amp;utm_term=13581</url>
-<price>3410</price>
+<price>2645</price>
 <purchase_price>1583</purchase_price>
 <currencyId>RUB</currencyId>
 <vendor></vendor>
@@ -1697,7 +1686,7 @@
 </offer>
 <offer id="13583" available="true">
 <url>http://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/koronki_dlya_sverleniya/nabor_kraftool_koronki_kol_tsevye_s_napyleniem_iz_karbida_vol_frama_4_sht_33_53_67_73mm_3340_z01_334/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=koronki_dlya_sverleniya&amp;utm_term=13583</url>
-<price>2364</price>
+<price>2300</price>
 <purchase_price>1036</purchase_price>
 <currencyId>RUB</currencyId>
 <vendor></vendor>
@@ -2196,17 +2185,6 @@
 <categoryId>848</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/037/7g64h4hwmcbxepctkdvrwedpmh5dken1.png</picture>
 <name>Замок врезной Гардиан 30.12 (3 риг., 4 кл.)</name>
-<description></description>
-</offer>
-<offer id="6749" available="true">
-<url>http://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/zamki_i_lichinki/zamki_dvernye/zamok_vreznoy_motor_sich_zv4_6_zv_7_zaz_zaz/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=zamki_dvernye&amp;utm_term=6749</url>
-<price>2226</price>
-<purchase_price>792</purchase_price>
-<currencyId>RUB</currencyId>
-<vendor></vendor>
-<categoryId>848</categoryId>
-<picture>http://santehnic-market.ru/upload/iblock/77f/lzq1rjfy6s5cnjnvhpf0kny32c2oy6k4.png</picture>
-<name>Замок врезной Мотор Сич ЗВ4-6 / ЗВ-7 (ЗАЗ)</name>
 <description></description>
 </offer>
 <offer id="6923" available="true">
@@ -2887,7 +2865,7 @@
 <vendor></vendor>
 <categoryId>955</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 32 McALPINE S28-NRV-32</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 32 McALPINE S28-NRV-32</name>
 <description></description>
 </offer>
 <offer id="15379" available="true">
@@ -2908,7 +2886,7 @@
 <vendor></vendor>
 <categoryId>955</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 40 McALPINE T28M-NRV-40</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 40 McALPINE T28M-NRV-40</name>
 <description></description>
 </offer>
 <offer id="16923" available="true">
@@ -2918,7 +2896,7 @@
 <vendor></vendor>
 <categoryId>955</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/c92/pib5puge1fqmfwbjfbaubm2njb04alge.jpg</picture>
-<name>Канализ. обр. клап. верт.тип копрес.(D=19-23мм.) McALPINE CONVALVE</name>
+<name>Канализационный  обратный клапан  вертикальный (D=19-23мм.) McALPINE CONVALVE</name>
 <description></description>
 </offer>
 <offer id="19252" available="true">
@@ -2928,7 +2906,7 @@
 <vendor></vendor>
 <categoryId>955</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 50 McALPINE Z2850-NRV</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 50 McALPINE Z2850-NRV</name>
 <description></description>
 </offer>
 <offer id="14399" available="true">
@@ -6827,6 +6805,16 @@
 <categoryId>1189</categoryId>
 <picture>http://santehnic-market.ru/upload/iblock/1e1/2wpny2192cxaijkdoaigmu80c7ssqatk.jpg</picture>
 <name>Сифон (трап) для душевого поддона Viega  ф 120/90мм - 40/50мм Tempoplex / 6956EX 364786</name>
+<description></description>
+</offer>
+<offer id="18170" available="true">
+<url>http://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sliv_pereliv_obvyazka_i_trapy/sifon_trap_dlya_dushevogo_poddona_plastik_vypusk_70mm_50_60_11_2_vysota_92mm_s_gofroy_40_50_l_300_50/?r1=&amp;r2=&amp;utm_source=yandex_market&amp;utm_medium=cpc&amp;utm_campaign=sliv_pereliv_obvyazka_i_trapy&amp;utm_term=18170</url>
+<price>1772</price>
+<currencyId>RUB</currencyId>
+<vendor></vendor>
+<categoryId>1189</categoryId>
+<picture>http://santehnic-market.ru/upload/iblock/185/17n7xpajln1ye418382m23l60ey9qs0p.png</picture>
+<name>Сифон (трап) для душевого поддона пластик. (выпуск 70мм), 50/60-11/2, высота=92мм, с гофрой 40/50 (L=300-500мм) McALPINE MRS2C-F</name>
 <description></description>
 </offer>
 <offer id="19304" available="true">

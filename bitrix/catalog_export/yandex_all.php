@@ -6,7 +6,7 @@ $strReferer2 = htmlspecialchars($_GET["referer2"]);
 header("Content-Type: text/xml; charset=UTF-8");
 echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2022-08-24 08:08">
+<yml_catalog date="2022-08-25 08:10">
 <shop>
 <name>Сантехник Маркет</name>
 <company>Сантехник Маркет</company>
@@ -570,7 +570,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="5757" available="true">
 <url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/kleykie_lenty/streych_plenka_2_1_kg/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>680</price>
+<price>650</price>
 <currencyId>RUB</currencyId>
 <categoryId>855</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/145/6q1fq8sk41pakl3xvkc331ea872iyb4v.jpg</picture>
@@ -737,6 +737,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>564</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/e30/9w81slj8a0t3u3vz1cxzg7wznprubx13.jpg</picture>
 <name>Круг отрезной алмазный DEXX влажная резка, сплошной, для УШМ, 125х5х22,2мм 36703-125_z01</name>
+<description></description>
+</offer>
+<offer id="5892" available="true">
+<url>https://santehnic-market.ru/catalog/elektrotovary/dvernye_zvonki_i_knopki/zvonok_svetozar_din_don_maestro_elektricheskiy_16_melodiy_s_regulirovkoy_zvuka_220v_sv_58053_sv_5805/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>900</price>
+<currencyId>RUB</currencyId>
+<categoryId>550</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/169/v1d38aidjt3hm0ca675mw8naeajp1l6x.jpg</picture>
+<name>Звонок СВЕТОЗАР &quot;ДИН-ДОН Маэстро&quot; электрический 16 мелодий, с регулировкой звука, ~220В SV-58053</name>
 <description></description>
 </offer>
 <offer id="5897" available="true">
@@ -1650,7 +1659,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="6373" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_zubr_ekspert_29623_104_5_shestigrannyy_khvostovik_nekh_1_4_klass_a_stal_r6m5_d_5_0/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>265</price>
+<price>250</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cdd/1kfc6gcfol083kgf4fz13xy40qkbf7o2.png</picture>
@@ -2215,15 +2224,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Шпатель ЗУБР &quot;СТАНДАРТ&quot; фасадный, стальное полотно, 350мм 10052-35</name>
 <description></description>
 </offer>
-<offer id="6749" available="true">
-<url>https://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/zamki_i_lichinki/zamki_dvernye/zamok_vreznoy_motor_sich_zv4_6_zv_7_zaz_zaz/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1935</price>
-<currencyId>RUB</currencyId>
-<categoryId>848</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/77f/lzq1rjfy6s5cnjnvhpf0kny32c2oy6k4.png</picture>
-<name>Замок врезной Мотор Сич ЗВ4-6 / ЗВ-7 (ЗАЗ)</name>
-<description></description>
-</offer>
 <offer id="6754" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/klyuchi_santekhnicheskie_i_avtomobil_nye/gaechnye_klyuchi_i_golovki/klyuch_ballonnyy_zubr_master_l_obraznyy_s_montazhnoy_lopatkoy_22mm_2753_22_z02_2753_22_z02/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>345</price>
@@ -2244,10 +2244,10 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="6773" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/nabor_sverl_spiral_nykh_po_derevu_8sht_d_3_10mm_m_obraznaya_zatochka_stal_65g_zubr_ekspert_29421_h8/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>915</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>553</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/668/t0lv2aye32r5iwsabe2a34jnfqyl5vw9.png</picture>
+<picture>https://santehnic-market.ru/upload/iblock/d6a/jidkgyrb9ot3kmmubxi5exyic7seg7tc.jpg</picture>
 <name>Набор сверл спиральных по дереву, 8шт(d=3-10мм), М-образная заточка, сталь 65Г, ЗУБР Эксперт 29421-H8</name>
 <description></description>
 </offer>
@@ -2368,15 +2368,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Щит встраиваемый TEKFOR 36 модуля IP41, прозрачная черная дверца</name>
 <description></description>
 </offer>
-<offer id="6911" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_13_mm_sts_01700130/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>260</price>
-<currencyId>RUB</currencyId>
-<categoryId>743</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/582/niae8zmzajwpn427uescubn5d72zy7sv.jpg</picture>
-<name>Сверло по металлу 13 мм</name>
-<description></description>
-</offer>
 <offer id="6912" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_15_mm_sts_019015200/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>460</price>
@@ -2483,15 +2474,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>647</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/597/i8v9oqe8qlfcju1ew8676cr95ze8g13b.jpg</picture>
 <name>STAYER &quot;PROFESSIONAL&quot;. Щетка коническая для УШМ, жгутированная стальная проволока 0,5мм, 125ммхМ14 35135-125</name>
-<description></description>
-</offer>
-<offer id="6958" available="true">
-<url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/kleykie_lenty/lenta_bordyur_samokl_38_mm_3_35_m_belaya_1_18_akkurat_hk41757/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>600</price>
-<currencyId>RUB</currencyId>
-<categoryId>855</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/51b/ajizrq13omi69aeu7v410hhoi41gt0mu.jpg</picture>
-<name>ЛЕНТА-БОРДЮР САМОКЛ. 38 ММ*3,35 М БЕЛАЯ (1/18) &apos;АККУРАТ&apos;</name>
 <description></description>
 </offer>
 <offer id="6966" available="true">
@@ -3756,7 +3738,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8021" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_zubr_ekspert_29623_133_10_shestigrannyy_khvostovik_nekh_1_4_klass_a_stal_r6m5_d_10/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>840</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cdd/1kfc6gcfol083kgf4fz13xy40qkbf7o2.png</picture>
@@ -3909,10 +3891,10 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8151" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/nabor_sverl_po_metallu_10_sht_d_1_10_mm_prof_v_zubr_29621_h10_29621_h10/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1870</price>
+<price>1400</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/429/r3m57ppnsxuicl2i85h2u1mg71n6i5uy.jpg</picture>
+<picture>https://santehnic-market.ru/upload/iblock/b25/hwpf2vbq3n2gmusxvvbx19ihlpf6kfsj.jpg</picture>
 <name>Набор сверл по металлу 10 шт (d=1-10 мм), Проф-В, ЗУБР 29621-H10</name>
 <description></description>
 </offer>
@@ -3990,7 +3972,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="8220" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/zubr_5sht_60_95_32mm_pila_segmentnaya_nabornaya_po_derevu_5_poloten_60_67_74_83_95x32_mm_zubr_29595/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1140</price>
+<price>1000</price>
 <currencyId>RUB</currencyId>
 <categoryId>553</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/125/nvtba67n7kb5d0hirmdk9vq1vcqnmfp0.jpg</picture>
@@ -4807,6 +4789,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Коронка STAYER &quot;PROFESSIONAL&quot; Би-металлическая, универсальная, d=20мм</name>
 <description></description>
 </offer>
+<offer id="8920" available="true">
+<url>https://santehnic-market.ru/catalog/elektrotovary/kabel_i_montazh/silovye_kabeli/provod_vvg_ng_3_kh_6_pl_ls_gost_vvg3kh6gost/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>220</price>
+<currencyId>RUB</currencyId>
+<categoryId>527</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/e5a/bcf475veo3fa8wglzgtvm5dbm8zob4os.jpg</picture>
+<name>Провод ВВГ нг 3 х 6 пл LS Гост</name>
+<description></description>
+</offer>
 <offer id="8925" available="true">
 <url>https://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/zamki_i_lichinki/zamki_dvernye/zamok_vreznoy_uzkoprofil_nyy_kale_153_35mm_kale_153_35mm/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>1070</price>
@@ -4980,7 +4971,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="9068" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/kraftool_5sht_68_100_32mm_pila_segmentnaya_nabornaya_po_derevu_68_74_80_90_100x32_mm_29584_h5_32_295/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>1905</price>
+<price>1500</price>
 <currencyId>RUB</currencyId>
 <categoryId>553</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/8b8/nm8j212dynshpubqsgwlc31yrso4n4mh.jpg</picture>
@@ -5797,15 +5788,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Ключ для УШМ 125-230 мм (болгарки / углошлифовальной машинки) универсальный СТП-96200200</name>
 <description></description>
 </offer>
-<offer id="9444" available="true">
-<url>https://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/zamki_i_lichinki/zamki_dvernye/zamok_mezhkomnatnyy_damx_z1_r_pb_zoloto_z1_r_pb/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>690</price>
-<currencyId>RUB</currencyId>
-<categoryId>848</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/436/2xmmq2bo65ul0r1sr8ujs1yse275qg7v.jpg</picture>
-<name>Замок межкомнатный DAMX Z1-R PB (золото)</name>
-<description></description>
-</offer>
 <offer id="9451" available="true">
 <url>https://santehnic-market.ru/catalog/zamochno_skobyanye_izdeliya/ruchki/ruchki_okonnye/ruchka_okonnaya_dlya_plastikovykh_okon_hb_007/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>240</price>
@@ -6051,7 +6033,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10316" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_betonu/bur_kraftool_expert_po_betonu_sds_plus_s_tsentriruyushchim_ostriyem_6kh110mm_29320_110_06_z01_29320/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>345</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>847</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1dc/f64k75z61s4wealel73yirxh5m2i27qh.jpg</picture>
@@ -6060,7 +6042,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10318" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_betonu/bur_kraftool_expert_po_betonu_sds_plus_s_tsentriruyushchim_ostriyem_6kh160mm_29320_160_06_z01_29320/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>355</price>
+<price>350</price>
 <currencyId>RUB</currencyId>
 <categoryId>847</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1dc/f64k75z61s4wealel73yirxh5m2i27qh.jpg</picture>
@@ -6069,7 +6051,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10319" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_betonu/bur_kraftool_expert_po_betonu_sds_plus_s_tsentriruyushchim_ostriyem_8kh160mm_29320_160_08_z01_29320/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>445</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>847</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1dc/f64k75z61s4wealel73yirxh5m2i27qh.jpg</picture>
@@ -6168,7 +6150,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="10539" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_zubr_ekspert_29623_117_8_shestigrannyy_khvostovik_nekh_1_4_klass_a_stal_r6m5_d_8_0/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>535</price>
+<price>500</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cdd/1kfc6gcfol083kgf4fz13xy40qkbf7o2.png</picture>
@@ -6812,15 +6794,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>767</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cf5/lld9kp37o6jwp50k4i71u8ylmna0ynd2.jpg</picture>
 <name>HERCULES-P HP-15/6 струбцина пистолетная 150/60 мм, STAYER 32242-15</name>
-<description></description>
-</offer>
-<offer id="10878" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/aksessuary_dlya_shlifovaniya_i_polirovki/stayer_profi_ploskiy_napil_nik_dvukhkomponentnaya_rukoyatka_200mm_16601_20_2_16601_20_2/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
-<currencyId>RUB</currencyId>
-<categoryId>647</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/a19/c07m7yjzun4x2idv55x4t6pwdiubbcuv.jpg</picture>
-<name>STAYER PROFI плоский напильник, двухкомпонентная рукоятка, 200мм 16601-20-2</name>
 <description></description>
 </offer>
 <offer id="10882" available="true">
@@ -8067,7 +8040,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="11967" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/pila_segmentnaya_nabornaya_kraftool_po_derevu_7_poloten_25_32_38_45_50_56_62kh42_mm_29580_h7_42_2958/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>840</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>553</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/d9f/c0ilvmjwq43hoqi26cc8j38vh3vfj675.jpg</picture>
@@ -8650,15 +8623,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Стеклодомкрат одинарный мини 50 мм 5 кг</name>
 <description></description>
 </offer>
-<offer id="12256" available="true">
-<url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_zubr_ekspert_29623_088_3_5_shestigrannyy_khvostovik_nekh_1_4_klass_a_stal_r6m5_d_3/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>205</price>
-<currencyId>RUB</currencyId>
-<categoryId>743</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/cdd/1kfc6gcfol083kgf4fz13xy40qkbf7o2.png</picture>
-<name>Сверло по металлу ЗУБР &quot;ЭКСПЕРТ&quot; 29623-088-3.5, шестигранный хвостовик НЕХ 1/4&quot;, класс A, сталь Р6М5, d=3,5 мм</name>
-<description></description>
-</offer>
 <offer id="12263" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/slesarnyy_i_stolyarnyy_instrument/nozhovki/rubanok_zubr_master_metallicheskiy_s_reguliruemym_lezviem_44kh235mm_18640_23_18640_23/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>800</price>
@@ -9066,7 +9030,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="12564" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/nabor_stayer_standard_sverla_kombinirovannye_derevo_4_5_6_8_10mm_metall_2_3_4_6_8mm_beton_4_5_6_8_10/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>990</price>
+<price>700</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/e72/4tryz6ivpjk0zng1e1qaa2akjd7f3f48.jpg</picture>
@@ -9161,6 +9125,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>872</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/434/g4wmkw5h48iuflberrdxiu53fj3wolvi.jpg</picture>
 <name>Паяльник ЗУБР &quot;ПРОФЕССИОНАЛ&quot; с двухкомпонентной рукояткой, с защитным колпачком, керамическим нагревательным элементом, 60Вт, конус 55413-60</name>
+<description></description>
+</offer>
+<offer id="12610" available="true">
+<url>https://santehnic-market.ru/catalog/lakokrasochnye_materialy/kleykie_lenty/streych_plenka_500_20_mkm_1_0kg/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>450</price>
+<currencyId>RUB</currencyId>
+<categoryId>855</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/764/dx7hcihpeif7awe2aes4h6jv5m8fpnh0.jpg</picture>
+<name>Стрейч-пленка мал.</name>
 <description></description>
 </offer>
 <offer id="12618" available="true">
@@ -10416,7 +10389,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13581" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/koronki_dlya_sverleniya/nabor_koronok_chashek_zubr_professional_c_karbid_vol_framovym_naneseniem_6_koronok_chashek_o_22_28_3/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>2965</price>
+<price>2300</price>
 <currencyId>RUB</currencyId>
 <categoryId>762</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/5e7/0frsz5sjfy8xk5lb5oikvt1j3ob32b9l.jpg</picture>
@@ -10434,7 +10407,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13583" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/koronki_dlya_sverleniya/nabor_kraftool_koronki_kol_tsevye_s_napyleniem_iz_karbida_vol_frama_4_sht_33_53_67_73mm_3340_z01_334/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>2055</price>
+<price>2000</price>
 <currencyId>RUB</currencyId>
 <categoryId>762</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/69e/t6emoawb2gou6qkuz48jyoo7l9ldflnw.jpg</picture>
@@ -10812,7 +10785,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="13791" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_koronki_po_derevu/pila_segmentnaya_nabornaya_stayer_po_derevu_26_64_x_50_mm_2956_2_2956_2/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>553</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/fde/lubokskw20apdsrh7i0kijuik19htmfd.jpg</picture>
@@ -11541,7 +11514,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="14041" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/sverlo_po_metallu_zubr_ekspert_29623_111_6_shestigrannyy_khvostovik_nekh_1_4_klass_a_stal_r6m5_d_6_0/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>330</price>
+<price>300</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/cdd/1kfc6gcfol083kgf4fz13xy40qkbf7o2.png</picture>
@@ -11892,7 +11865,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 </offer>
 <offer id="14237" available="true">
 <url>https://santehnic-market.ru/catalog/instrumenty/sverla_i_koronki_dlya_sverleniya/sverla_po_metallu/nabor_stayer_standard_sverla_kombinirovannye_derevo_4_6_8mm_metall_4_6_8mm_beton_4_6_8mm_9_predmetov/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>460</price>
+<price>450</price>
 <currencyId>RUB</currencyId>
 <categoryId>743</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/735/v2ahvnwrp23f3f2pfti5ty3rh6aeqcub.jpg</picture>
@@ -13453,7 +13426,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <currencyId>RUB</currencyId>
 <categoryId>955</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 32 McALPINE S28-NRV-32</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 32 McALPINE S28-NRV-32</name>
 <description></description>
 </offer>
 <offer id="14823" available="true">
@@ -14158,6 +14131,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Ролики для душевых кабин DC1001-2 22 мм (комплект 8шт)</name>
 <description></description>
 </offer>
+<offer id="15167" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_rakoviny_umyval_nika/sifon_mcalpine_bez_vypuska_f_32_32_trubnyy_p_obr_mcalpine_mrw8_mrw8/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>635.25</price>
+<currencyId>RUB</currencyId>
+<categoryId>1034</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/4d8/dpnvmx101me30bf28x3bj2pz3il729ll.jpg</picture>
+<name>Сифон McALPINE Без Выпуска ф-32-32 трубный P-обр. McALPINE MRW8</name>
+<description></description>
+</offer>
 <offer id="15168" available="true">
 <url>https://santehnic-market.ru/catalog/elektrotovary/osvetitel_nye_pribory_i_elementy_pitaniya/lampy_nakalivaniya/foton_lampa_lt4_30_w_6400k_554_mm_g5_dnevnoy_belyy_lyumlampa/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>310</price>
@@ -14671,6 +14653,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Отвод канализационный ф 110-50-90° задний (Политэк)</name>
 <description></description>
 </offer>
+<offer id="15361" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_rakoviny_umyval_nika/sifon_trubnyy_r_s_obraznyy_1_1_4_kh_32mm_bez_vypuska_mcalpine_mrw7_mrw7/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>778.18</price>
+<currencyId>RUB</currencyId>
+<categoryId>1034</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/d86/d7p5m3taffr0f51j3ztxfxbygkrv60al.png</picture>
+<name>Сифон трубный Р / S - образный 1 1/4 х 32мм без выпуска McALPINE MRW7</name>
+<description></description>
+</offer>
 <offer id="15365" available="true">
 <url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_kukhonnoy_moyki/sifon_dlya_kukhonnoy_moyki_bez_vypuska_1_1_2_x_40mm_mcalpine_mrsk2_nw_mrsk2_nw/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>423.5</price>
@@ -14786,6 +14777,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1172</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/3b7/dzqo2pak2qu4z1h8lvqh06gow9neaxyj.jpg</picture>
 <name>Отвод канализационный ф 110-50-90° верхний (Политэк)</name>
+<description></description>
+</offer>
+<offer id="15406" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/kanalizatsiya/vnutrennyaya_kanalizatsiya_politek/krestovina_dvukhploskostnaya_f_110_50_50_90_politek_m000005/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>278</price>
+<currencyId>RUB</currencyId>
+<categoryId>1172</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/e55/s633wenzxh4inusf57tq7tul4gbfx711.jpg</picture>
+<name>Крестовина двухплоскостная ф 110-50-50-90° (Политэк)</name>
 <description></description>
 </offer>
 <offer id="15410" available="true">
@@ -15418,6 +15418,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>Уголок латунный  11/2 г/ш IS</name>
 <description></description>
 </offer>
+<offer id="15634" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_kukhonnoy_moyki/sifon_mcalpine_bez_vypuska_f_40_40_trubnyy_p_obr_mcalpine_mrsk12_50_mrsk12_50/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>672.31</price>
+<currencyId>RUB</currencyId>
+<categoryId>1082</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/04e/6m0619c8n22l0cbxgouvu1fpxd7f2op3.jpg</picture>
+<name>Сифон McALPINE Без Выпуска ф-40-50 трубный P-обр. McALPINE MRSK12-50</name>
+<description></description>
+</offer>
 <offer id="15635" available="true">
 <url>https://santehnic-market.ru/catalog/elektrotovary/osvetitel_nye_pribory_i_elementy_pitaniya/lampy_svetodiodnye/lampa_svetodiodnaya_led_svecha_deco_7vt_230v_e14_3000k_630lm_prozrachnaya_in_home_4690612007601/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>270</price>
@@ -15461,6 +15470,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1167</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/8bd/qctxf77mv3xthvaa11rz04jhwiy7xwee.jpg</picture>
 <name>БЕЛЫЙ ПОЛИПРОПИЛЕНОВЫЙ ТРОЙНИК  ф 63 SPK</name>
+<description></description>
+</offer>
+<offer id="15650" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/kanalizatsiya/vnutrennyaya_kanalizatsiya_ostendorf/ostendorf_kompensatsionnyy_patrubok_f_110_17310/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>315</price>
+<currencyId>RUB</currencyId>
+<categoryId>1008</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/313/w1qapyprb7nk7mat3561mrk14m4nmllh.jpg</picture>
+<name>(Ostendorf) Компенсационный патрубок ф 110</name>
 <description></description>
 </offer>
 <offer id="15651" available="true">
@@ -17737,7 +17755,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <currencyId>RUB</currencyId>
 <categoryId>955</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 40 McALPINE T28M-NRV-40</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 40 McALPINE T28M-NRV-40</name>
 <description></description>
 </offer>
 <offer id="16246" available="true">
@@ -19933,7 +19951,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <currencyId>RUB</currencyId>
 <categoryId>955</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/c92/pib5puge1fqmfwbjfbaubm2njb04alge.jpg</picture>
-<name>Канализ. обр. клап. верт.тип копрес.(D=19-23мм.) McALPINE CONVALVE</name>
+<name>Канализационный  обратный клапан  вертикальный (D=19-23мм.) McALPINE CONVALVE</name>
 <description></description>
 </offer>
 <offer id="16925" available="true">
@@ -21688,6 +21706,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1048</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/37d/1r7hxce95tjr3j2o50plsq1n3mtfumdt.png</picture>
 <name>Прокладка под сливной клапан Vidima ( Видима ) 71 x 23 мм</name>
+<description></description>
+</offer>
+<offer id="17515" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/armatura_dlya_bachka_unitaza/vpusknoy_mekhanizm_poplavok_dlya_bachka_unitaza_s_bok_podvodom_1_2_ani_wc5050_wc5050/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>265</price>
+<currencyId>RUB</currencyId>
+<categoryId>1032</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/794/f9a73rpq3s700p0cq41r9027352hq5b7.jpg</picture>
+<name>Впускной механизм (поплавок) для бачка унитаза с бок. подводом 1/2 &quot; АНИ WC5050</name>
 <description></description>
 </offer>
 <offer id="17517" available="true">
@@ -23499,6 +23526,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>ТРУБА фановая прямая ф110-250мм Viega  [3815] 101312</name>
 <description></description>
 </offer>
+<offer id="18137" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_kukhonnoy_moyki/nosik_dlya_sifona_dvoynoy_f40_mcalpine_tee4_tee4/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>349.39</price>
+<currencyId>RUB</currencyId>
+<categoryId>1082</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/4cf/vntaku3lxfjspdpl9skshxuu71ga23ge.png</picture>
+<name>НОСИК ДЛЯ СИФОНА двойной ф40 McALPINE TEE4</name>
+<description></description>
+</offer>
 <offer id="18138" available="true">
 <url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_kukhonnoy_moyki/nosik_dlya_sifona_f40_dlin_7sm_mcalpine_tee3_tee3/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>275</price>
@@ -23524,6 +23560,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1034</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/187/ga24pxhtffkeveibw5xftso4vdduv2k5.png</picture>
 <name>ТРУБА Отводная 90° (внут. 11/4 - нар. 11/4) длина 232 мм McALPINE HC13-32</name>
+<description></description>
+</offer>
+<offer id="18151" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sifony_dlya_kukhonnoy_moyki/sistema_otvodnykh_trub_dvoy_vkhod_vykh_11_2_regul_s_nos_mcalpine_cdbawm_cdbawm/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>915.82</price>
+<currencyId>RUB</currencyId>
+<categoryId>1082</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/9ab/iqodsy9vcvzz2qbcpgvz6vy8begc39gs.png</picture>
+<name>Система отводных труб двой. вход/вых. 11/2 (регул.) с нос. McALPINE CDBAWM</name>
 <description></description>
 </offer>
 <offer id="18156" available="true">
@@ -23596,6 +23641,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1189</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/1e1/2wpny2192cxaijkdoaigmu80c7ssqatk.jpg</picture>
 <name>Сифон (трап) для душевого поддона Viega  ф 120/90мм - 40/50мм Tempoplex / 6956EX 364786</name>
+<description></description>
+</offer>
+<offer id="18170" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/sliv_pereliv_obvyazka_i_trapy/sifon_trap_dlya_dushevogo_poddona_plastik_vypusk_70mm_50_60_11_2_vysota_92mm_s_gofroy_40_50_l_300_50/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>1540.48</price>
+<currencyId>RUB</currencyId>
+<categoryId>1189</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/185/17n7xpajln1ye418382m23l60ey9qs0p.png</picture>
+<name>Сифон (трап) для душевого поддона пластик. (выпуск 70мм), 50/60-11/2, высота=92мм, с гофрой 40/50 (L=300-500мм) McALPINE MRS2C-F</name>
 <description></description>
 </offer>
 <offer id="18175" available="true">
@@ -27081,15 +27135,6 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <name>БЕЛАЯ  ПОЛИПРОПИЛЕНОВАЯ АМЕРИКАНКА  ф 20 - 1/2 внут. SPK</name>
 <description></description>
 </offer>
-<offer id="19022" available="true">
-<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/podvodki_gibkie/podvodki_dlya_vody/gibkaya_podvodka_dlya_vody_1_2_gayka_gayka_80_sm_victoria_90_080/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
-<price>234.14</price>
-<currencyId>RUB</currencyId>
-<categoryId>1041</categoryId>
-<picture>https://santehnic-market.ru/upload/iblock/ad2/18u8r4yd4c61g24t3hm3kr8iu7pea9gm.jpg</picture>
-<name>Гибкая подводка для воды 1/2 &quot; , гайка - гайка , 80 см Victoria</name>
-<description></description>
-</offer>
 <offer id="19023" available="true">
 <url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/podvodki_gibkie/podvodki_dlya_stiral_nykh_mashin/shlang_dlya_stiral_noy_mashiny_3_4_3_4_gayka_gayka_zalivnoy_metallicheskiy_500_sm_victoria_89_500/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
 <price>834.24</price>
@@ -28032,7 +28077,7 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <currencyId>RUB</currencyId>
 <categoryId>955</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/c8a/poybtys5iu32s0b7oy0e0dhpdar1z34f.jpg</picture>
-<name>КАНАЛИЗАЦИОННЫЙ ОБРАТ.КЛАП.ф 50 McALPINE Z2850-NRV</name>
+<name>КАНАЛИЗАЦИОННЫЙ ОБРАТЫЙ КЛАПАН ф 50 McALPINE Z2850-NRV</name>
 <description></description>
 </offer>
 <offer id="19255" available="true">
@@ -28330,6 +28375,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1082</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/e9e/ymvl4lx3ecga4bx4o1w6o8w25z9xzv80.png</picture>
 <name>Сифон McALPINE  тип сухой гидрозатвор 40 мм -40 мм MRNRV40C-PB</name>
+<description></description>
+</offer>
+<offer id="19320" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_chistovaya/vodoslivnaya_armatura/gofry_dlya_sifonov/gofra_f_1_1_2_vykh_40_50_mm_250_450_mm_mcalpine_mrmf6_045_mrmf6_045/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>386.44</price>
+<currencyId>RUB</currencyId>
+<categoryId>1036</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/62b/73v89fleylh5hvlp0web51lb0381w1mc.png</picture>
+<name>Гофра ф 1 1/2 &quot; вых. 40/50 мм - 250 - 450 мм McALPINE MRMF6-045</name>
 <description></description>
 </offer>
 <offer id="19322" available="true">
@@ -29050,6 +29104,15 @@ echo "<"."?xml version=\"1.0\" encoding=\"UTF-8\"?".">"?>
 <categoryId>1032</categoryId>
 <picture>https://santehnic-market.ru/upload/iblock/8d6/rlqt3p5vwmo2w4qengt19muxnoxm96ow.png</picture>
 <name>Арматура с двойной кнопкой для бачка унитаза c нижн. лат. подводом 1/2 &quot; Alcaplast SA08SK</name>
+<description></description>
+</offer>
+<offer id="19633" available="true">
+<url>https://santehnic-market.ru/catalog/santekhnika_inzhenernaya/kanalizatsiya/vnutrennyaya_kanalizatsiya_ostendorf/ostendorf_mufta_revizionnaya_du_50_mm/?r1=<?=$strReferer1; ?>&amp;r2=<?=$strReferer2; ?></url>
+<price>400</price>
+<currencyId>RUB</currencyId>
+<categoryId>1008</categoryId>
+<picture>https://santehnic-market.ru/upload/iblock/948/dc1c2cnnmph2ok1z5bqk8ts4qip8tey8.jpg</picture>
+<name>(Ostendorf)  Муфта ревизионная  Ду 50 мм</name>
 <description></description>
 </offer>
 <offer id="19634" available="true">
