@@ -2,6 +2,8 @@
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
     die();
 
+require_once $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
+
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Page\Asset;
 \Bitrix\Main\Localization\Loc::loadMessages(__FILE__);
@@ -29,7 +31,13 @@ CJSCore::Init(array('ajax', 'window'));
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                 <meta name="format-detection" content="telephone=no">
-                    <? $APPLICATION->ShowHead(); ?>
+                    <? echo '<meta http-equiv="Content-Type" content="text/html; charset='.LANG_CHARSET.'"'.(true? ' /':'').'>'."\n";
+                    $APPLICATION->ShowMeta("robots");
+                    $APPLICATION->ShowMeta("description");
+                    $APPLICATION->ShowLink("canonical");
+                    $APPLICATION->ShowCSS(true);
+                    $APPLICATION->ShowHeadStrings();
+                    $APPLICATION->ShowHeadScripts(); ?>
                     <? $APPLICATION->AddHeadString('<script>BX.message(' . CUtil::PhpToJSObject($MESS, false) . ')</script>', true); ?>
         <!-- calltouch -->
         <script type="text/javascript">
