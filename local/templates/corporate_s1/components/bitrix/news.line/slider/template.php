@@ -10,8 +10,10 @@ $strId = randString(5);
             <? $position = ''; if ($arItem['TEXT_POSITION'] == "CENTER") $position = ' center'; elseif ($arItem['TEXT_POSITION'] == "RIGHT") $position = ' right'; ?> 
 		<div class="item<?=$position?>" style="background-image: url('<?=$arItem['PREVIEW_PICTURE']['SRC']?>');">
 			<div class="container">
-				<div class="name"><?=$arItem['NAME']?></div>
-				<div class="desc"><?=$arItem['PREVIEW_TEXT']?></div>
+                <div class="slider-text">
+				    <h1 class="name"><?=$arItem['NAME']?></h1>
+				    <div class="desc"><?=$arItem['PREVIEW_TEXT']?></div>
+                </div>
                                 <div class="actions">
                                 <? if (!empty($arItem['BUTTON_PRIMARY_TEXT'])):?>
 				<a href="<?=$arItem['BUTTON_PRIMARY_LINK']?>" class="btn big color"><?=$arItem['BUTTON_PRIMARY_TEXT']?></a>

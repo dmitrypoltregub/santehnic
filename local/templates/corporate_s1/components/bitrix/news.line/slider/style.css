@@ -1,0 +1,10 @@
+.top-slider .item .name{
+    color:#ffffff !important;
+}
+.top-slider .item .slider-text{
+    background: rgb(0 0 0 / 35%);
+    border-radius: 10px;
+    padding: 25px 40px;
+    width: 55%;
+    margin: 0 auto;
+}

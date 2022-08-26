@@ -18,7 +18,7 @@
 
     <? foreach ($arResult as $key => $arItem): ?>
     <div class="item<?if(!empty($arItem['SELECTED'])):?> active<?endif;?> <? if (is_array($arItem['SUB'])): ?>has-sub<? endif; ?>">
-        <a href="<?=$arItem['LINK']?>" class="link"><?=$arItem['TEXT']?></a>
+        <a <?if(empty($arItem['SELECTED'])):?>href="<?=$arItem['LINK']?>"<? endif; ?> class="link"><?=$arItem['TEXT']?></a>
         <? if (is_array($arItem['SUB'])): ?>
         <div class="sub">
             <? foreach ($arItem['SUB'] as $arItemLvl2): ?>
