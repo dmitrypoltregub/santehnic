@@ -11,9 +11,7 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
     <div class="container">
         <div class="section-name">
             <h2 class="subtitle"><?=$arParams['BLOCK_TITLE']?></h2>
-            <? if (!empty($arParams['BLOCK_MORE_TITLE'])): ?>
-                <a href="<?= $arParams['BLOCK_MORE_LINK'] ?>" class="all"><?= $arParams['BLOCK_MORE_TITLE'] ?></a>
-            <? endif; ?>
+
         </div>
         <? if (!empty($arParams['BLOCK_DESCRIPTION'])): ?>
             <div class="desc"><?= $arParams['BLOCK_DESCRIPTION'] ?></div>

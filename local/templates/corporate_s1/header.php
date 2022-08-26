@@ -34,7 +34,7 @@ CJSCore::Init(array('ajax', 'window'));
                     <? echo '<meta http-equiv="Content-Type" content="text/html; charset='.LANG_CHARSET.'"'.(true? ' /':'').'>'."\n";
                     $APPLICATION->ShowMeta("robots");
                     $APPLICATION->ShowMeta("description");
-                    $APPLICATION->ShowLink("canonical");
+                    ?><link rel="canonical" href="<? echo $APPLICATION->GetCurDir(); ?>" /><?
                     $APPLICATION->ShowCSS(true);
                     $APPLICATION->ShowHeadStrings();
                     $APPLICATION->ShowHeadScripts(); ?>
