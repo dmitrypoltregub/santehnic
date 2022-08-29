@@ -63,7 +63,8 @@ CJSCore::Init(array('ajax', 'window'));
 	<div class="container">
 		<?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/breadcrumbs.php", Array(), Array("MODE" => "html"));?>
 		<h1 class="title"><? $APPLICATION->ShowTitle(false) ?></h1>
-            <div class="top-desc"><?=$APPLICATION->ShowViewContent('top-desc');?></div>
+		
+            <div class="top-desc"><? $APPLICATION->ShowViewContent('top-desc');?></div>
 
 	</div>
 </div>

@@ -4,8 +4,8 @@ $rsResult = CIBlockSection::GetList(array("SORT" => "ASC"), array("IBLOCK_ID" =>
 if($secResult = $rsResult -> GetNext()){
 
     $arResult['UF_TOP_DESCRIPTION'] = $secResult["UF_TOP_DESCRIPTION"];
-    $this->SetViewTarget('top-desc');
-    echo $arResult['UF_TOP_DESCRIPTION'];
+	$this->SetViewTarget('top-desc');
+    echo(htmlspecialcharsBack($arResult['UF_TOP_DESCRIPTION']) );
     $this->EndViewTarget();
 
 }
