@@ -1,5 +1,4 @@
 <?php
-
 $arNewTabs = Array ();
 foreach ($arResult['TABS'] as $arTab)
 {

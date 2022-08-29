@@ -16,4 +16,3 @@ if($request["PAGEN_1"]){
     $oldTitle = $APPLICATION->GetTitle();
     $APPLICATION->SetTitle($oldTitle.' - Страница '.$request["PAGEN_1"]);
 }
-

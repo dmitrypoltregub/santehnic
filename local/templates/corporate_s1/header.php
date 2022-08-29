@@ -10,7 +10,7 @@ use Bitrix\Main\Page\Asset;
 
 if (! \Bitrix\Main\Loader::includeModule('nextype.corporate') )
     die();
-
+$APPLICATION->SetPageProperty('top_description','');
 $CCorporate = \Nextype\Corporate\CCorporate::getInstance(SITE_ID);
 $MESS['CURRENT_PAGE'] = $APPLICATION->GetCurPage();
 ?>
@@ -64,6 +64,8 @@ CJSCore::Init(array('ajax', 'window'));
 	<div class="container">
 		<?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/breadcrumbs.php", Array(), Array("MODE" => "html"));?>
 		<h1 class="title"><? $APPLICATION->ShowTitle(false) ?></h1>
+            <div class="top-desc"><?$APPLICATION->ShowProperty('top_description');?></div>
+
 	</div>
 </div>
                             <? endif; ?>
