@@ -29,22 +29,10 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
     <div class="category" id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
         <a href="<?=$arSection['SECTION_PAGE_URL']?>" class="preview-image" <?if(!empty($arSection['PICTURE']['SRC'])):?>style="background-image: url('<?=$arSection['PICTURE']['SRC']?>')"<?endif;?>></a>
         <div class="text">
-            <h2 class="name">
+            <div class="name">
                 <a href="<?=$arSection['SECTION_PAGE_URL']?>"><?=$arSection['NAME']?></a>
-            </h2>
-            <div class="desc">
-                <ul>
-                    <?php
-                    foreach($arSection['SUBSECTIONS'] as $subsection)
-                    {
-                        ?><li class="subsection"><a href="<?=$arSection['SECTION_PAGE_URL'].$subsection['CODE'].'/'?>"><?=$subsection['NAME']?></a></li><?
-                    }
-                    ?>
-                </ul>
             </div>
-			<? if (!empty($arSection['DETAIL_DESC'])): ?>
-            <div class="desc"><?=$arSection['DETAIL_DESC']?></div>
-            <? endif; ?>
+
         </div>
     </div>
     <? endforeach; ?>
