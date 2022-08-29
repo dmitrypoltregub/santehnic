@@ -16,6 +16,8 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent(
         "DETAIL_PAGE_URL" => "/catalog/#SECTION_CODE_PATH#/#ELEMENT_CODE#",
       "IBLOCK_TYPE" => "nt_corporate_catalog", 
       "IBLOCK_ID" => \Nextype\Corporate\COptions::getIblockID('catalog'),
+       "DEPTH_LEVEL" => "6",
+       "CACHE_TYPE" => "N",
       
       "CACHE_TIME" => "3600000" 
    )
