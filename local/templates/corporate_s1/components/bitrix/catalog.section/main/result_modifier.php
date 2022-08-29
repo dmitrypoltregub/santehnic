@@ -5,7 +5,8 @@ if($secResult = $rsResult -> GetNext()){
 
     $arResult['UF_TOP_DESCRIPTION'] = $secResult["UF_TOP_DESCRIPTION"];
 	$this->SetViewTarget('top-desc');
-    echo(htmlspecialcharsBack($arResult['UF_TOP_DESCRIPTION']) );
+    if($arResult['UF_TOP_DESCRIPTION'])
+        echo(htmlspecialcharsBack('<div class="top-desc">'.$arResult['UF_TOP_DESCRIPTION']).'</div>' );
     $this->EndViewTarget();
 
 }
