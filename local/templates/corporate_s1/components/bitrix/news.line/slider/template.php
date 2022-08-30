@@ -30,8 +30,8 @@ $strId = randString(5);
 	<script>
 		$('#<?=$strId?>').owlCarousel({
                     items: 1,
-		    loop: true,
-		    nav: true,
+		    loop: false,
+		    nav: false,
 		    navText: ["<div class='prev icon icon-back'></div>", "<div class='next icon icon-forward'></div>"],
 		    dots: true
 		});

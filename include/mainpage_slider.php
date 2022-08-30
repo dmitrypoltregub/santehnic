@@ -12,7 +12,7 @@
                     0 => \Nextype\Corporate\COptions::getIblockID('slider')
                 ),
 		"IBLOCK_TYPE" => "nt_corporate_content",
-		"NEWS_COUNT" => "5",
+		"NEWS_COUNT" => "1",
 		"SORT_BY1" => "SORT",
 		"SORT_BY2" => "ID",
 		"SORT_ORDER1" => "ASC",
