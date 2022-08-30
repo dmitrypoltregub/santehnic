@@ -1,1 +1,1 @@
-<a href="tel:89253346138">+7 (925) 334-61-38</a>
+<a href="tel:89253346138"><span itemprop="telephone">+7 (925) 334-61-38</span></a>

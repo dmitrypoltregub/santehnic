@@ -1,1 +1,1 @@
-<a href="mailto:santehnic-market@yandex.ru">santehnic-market@yandex.ru</a>
+<a href="mailto:santehnic-market@yandex.ru"><span itemprop="email">santehnic-market@yandex.ru</span></a>

@@ -1,8 +1,8 @@
 <footer class="footer">
-	<div class="container">
+	<div class="container" itemscope="" itemtype="https://schema.org/Organization">
 		<div class="top">
             <div class="logo">
-                <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/header_logo.php", Array(), Array("MODE" => "html")); ?>
+                <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/footer_logo.php", Array(), Array("MODE" => "html")); ?>
             </div>
 			<div class="subscribe">
                             <?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_subscribe.php", Array(), Array("MODE" => "html"));?>
@@ -14,7 +14,11 @@
 		<div class="bottom">
 			<div class="contacts">
 				<div class="tel icon"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_phone.php", Array(), Array("MODE" => "html"));?></div>
-				<div class="location icon"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_address.php", Array(), Array("MODE" => "html"));?></div>
+                <div class="company" itemprop="name">
+                    <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/footer_company_name.php", Array(), Array("MODE" => "html")); ?>
+
+                </div>
+                <div class="location icon" itemprop="address"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_address.php", Array(), Array("MODE" => "html"));?></div>
 				<div class="email icon-custom"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_email.php", Array(), Array("MODE" => "html"));?></div>
 			</div>
             <div class="menu-container">
