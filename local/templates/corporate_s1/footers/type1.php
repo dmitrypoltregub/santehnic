@@ -1,6 +1,9 @@
 <footer class="footer">
 	<div class="container">
 		<div class="top">
+            <div class="logo">
+                <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/header_logo.php", Array(), Array("MODE" => "html")); ?>
+            </div>
 			<div class="subscribe">
                             <?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_subscribe.php", Array(), Array("MODE" => "html"));?>
 			</div>
