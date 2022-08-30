@@ -139,7 +139,7 @@ class CAllAgent
 		global $DB, $CACHE_MANAGER;
 		$ign_name = false;
 
-		$ID = intval($ID);
+		$ID = ctype_digit($ID) ? intval($ID) : 0;
 
 		if(is_set($arFields, "ACTIVE") && $arFields["ACTIVE"]!="Y")
 			$arFields["ACTIVE"]="N";
