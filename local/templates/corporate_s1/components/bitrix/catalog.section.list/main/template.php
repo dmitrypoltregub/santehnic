@@ -32,6 +32,16 @@ $arSectionDeleteParams = array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_C
             <div class="name">
                 <a href="<?=$arSection['SECTION_PAGE_URL']?>"><?=$arSection['NAME']?></a>
             </div>
+            <div class="desc">
+                <ul>
+                    <?php
+                    foreach($arSection['SUBSECTIONS'] as $subsection)
+                    {
+                        ?><li class="subsection"><a href="<?=$arSection['SECTION_PAGE_URL'].$subsection['CODE'].'/'?>"><?=$subsection['NAME']?></a></li><?
+                    }
+                    ?>
+                </ul>
+            </div>
 
         </div>
     </div>
