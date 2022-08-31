@@ -1,1 +1,1 @@
-<img src="<?=SITE_TEMPLATE_PATH?>/images/company.jpg" />
+<img alt="Интернет-магазин сантехники в Москве" src="/local/templates/corporate_s1/images/company.jpg" title="Интернет-магазин сантехники в Москве">

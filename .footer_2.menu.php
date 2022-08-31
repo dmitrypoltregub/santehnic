@@ -23,7 +23,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Карта сайта", 
-		"/sitemap/", 
+		"/sitemap.php/", 
 		Array(), 
 		Array(), 
 		"" 
