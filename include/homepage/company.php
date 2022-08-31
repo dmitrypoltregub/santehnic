@@ -6,7 +6,7 @@
 				
 			</div>			
 			<div class="info">
-				<h2 class="subtitle">О компании</h2>
+				<h2 class="subtitle">«СтройМаркет» – интернет-магазин качественной сантехники в Москве</h2>
                                 <div class="text">
                                     <?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/homepage/company_text.php", Array(), Array("MODE" => "html"));?>
                                 </div>
