@@ -67,7 +67,8 @@
                 <a target="_blank" href="https://clck.yandex.ru/redir/dtype=stred/pid=47/cid=73582/path=dynamic.200x125/*https://market.yandex.ru/shop--santekhnik-market/478951/reviews"> <img src="https://clck.yandex.ru/redir/dtype=stred/pid=47/cid=73581/path=dynamic.200x125/*https://grade.market.yandex.ru/?id=478951&action=image&size=3" border="0" alt="Читайте отзывы покупателей и оценивайте качество магазина Сантехник Маркет на Яндекс.Маркете" /> </a>
 				<div class="name"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_copyright1.php", Array(), Array("MODE" => "html"));?></div>
 				<div class="right"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_copyright2.php", Array(), Array("MODE" => "html"));?></div>
-			</div>
+                <a class="conf" target="_blank" href="/agreement/">Политика конфиденциальности</a>
+            </div>
 		</div>
 	</div>
 </footer>
