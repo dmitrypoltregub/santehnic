@@ -1,6 +1,13 @@
 <?php
-if(0)
-    {?>
+require_once $_SERVER['DOCUMENT_ROOT'].'/local/php_interface/include/classes/autoload.php';
+$hl_top = new \Repositories\HLRepository(4);
+if($hl_top->getArray(['UF_TOP_ELEMENTS'])['UF_TOP_ELEMENTS'])
+    {
+        global $arrFilter;
+       $arrFilter = [
+        'ID'=>$hl_top->getArray(['UF_TOP_ELEMENTS'])['UF_TOP_ELEMENTS']
+    ];
+       ?>
 <div class="slider">
     <div class="container">
         <div class="tabs-content">
@@ -11,6 +18,7 @@ if(0)
                     Array(
                         "ACTION_VARIABLE" => "action",
                         "ADD_PICT_PROP" => "-",
+                        "BLOCK_TITLE"=>"Топ продаж",
                         "ADD_PROPERTIES_TO_BASKET" => "N",
                         "ADD_SECTIONS_CHAIN" => "N",
                         "ADD_TO_BASKET_ACTION" => '',
@@ -80,7 +88,7 @@ if(0)
                         "RCM_PROD_ID" => $_REQUEST["PRODUCT_ID"],
                         "RCM_TYPE" => "personal",
                         "SECTION_CODE" => "",
-                        "SECTION_ID" => "675",
+                        "SECTION_ID" => "",
                         "SECTION_ID_VARIABLE" => "SECTION_ID",
                         "SECTION_URL" => "",
                         "SECTION_USER_FIELDS" => array("UF_DETALE_DESC",""),
@@ -102,7 +110,7 @@ if(0)
                         "SHOW_PRICE_COUNT" => "1",
                         "SHOW_SLIDER" => "Y",
                         "SLIDER_INTERVAL" => "3000",
-                        "SLIDER_PROGRESS" => "N",
+                        "SLIDER_PROGRESS" => "Y",
                         "TEMPLATE_THEME" => "blue",
                         "USE_ENHANCED_ECOMMERCE" => "N",
                         "USE_MAIN_ELEMENT_SECTION" => "N",
@@ -115,4 +123,6 @@ if(0)
         </div>
     </div>
 </div>
-<?php } ?>
+<?php
+
+    } ?>

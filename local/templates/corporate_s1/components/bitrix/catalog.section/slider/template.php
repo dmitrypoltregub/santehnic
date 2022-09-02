@@ -61,6 +61,12 @@ $containerName = 'catalog-' . randString(5);
             $('#product-carousel-<?=$containerName?>').owlCarousel({
 
             loop: true,
+                autoplay: true,
+                slideBy: 2,
+                autoplayTimeout: 5000,
+                autoplay:true,
+                smartSpeed:300,
+                //autoplaySpeed: 5000,
             nav: true,
             navContainer: '#slider-nav-<?=$containerName?>',
             navText: ["<div class='prev icon icon-back'></div>", "<div class='next icon icon-forward'></div>"],
