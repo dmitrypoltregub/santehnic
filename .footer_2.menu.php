@@ -15,6 +15,20 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Самовывоз", 
+		"/kak-zakazat/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/kak-poluchit/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Контакты", 
 		"/about/contacts/", 
 		Array(), 
