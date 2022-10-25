@@ -1,4 +1,6 @@
-h1 {
+;    margin-bottom: 5px;.ask{}
+.email{}
+.location{}h1 {
 	margin: 0 0 .55em;
 	font-size: 2em;
 	color: #212121;
@@ -136,3 +138,47 @@ blockquote:after {
 	color: #fff;
 }
 .conf{text-decoration: underline;font-size: 13px; color:#ffffff;}
+.header .info .container{justify-content: space-between;}
+.catalog-footer .side-menu .item{
+	display:block;width:49%;float:left;
+}
+/*magic*/
+.header .info .container .item {
+    font-size: 13px!important;
+}
+.header .info .container .social {
+    display: none;
+}
+.ask {
+    margin-right: 0 !important;
+}
+.footer .bottom .menu {
+    margin-right: 5% !important;
+}
+.footer .bottom .menu .parent{margin-bottom:15px;}
+.footer .bottom .contacts{flex:0 0 25%}
+.ask a{    color: #09d !important;
+    text-decoration: underline !important;}
+.time:before{content:"\f337";}
+.footer .bottom .copyright {
+	margin: 0 !important;flex: 0 0 20%;}
+.footer .bottom .menu-container{flex:0 0 55% !important}
+.email{}
+.catalog-footer .side-menu .item {
+   width:auto!important;float:none!important;    margin-bottom: 5px;
+}
+.catalog-footer{}
+.side-menu{column-count: 2;}
+.has-sub2{}
+.footer .bottom .menu .link{font-size:13px !important;border-bottom:0 !important;}
+.location{}
+.time{}
+.time:before{}
+.tabs-content .tab-content .slider-nav {
+    position: absolute;
+    top: 57px;
+    right: 2px;
+}
+.catalog .tabs-content .tab-content {
+    position: relative;
+}

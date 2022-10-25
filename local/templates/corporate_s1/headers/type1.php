@@ -8,6 +8,10 @@
             <? else: ?>
                 <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/header_locations.php", Array(), Array("MODE" => "html")); ?>
             <? endif; ?>
+            <div class="item icon time">
+                
+                <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/header_time.php", Array(), Array("MODE" => "html")); ?>
+            </div>
             <div class="item icon-custom email">
                 <? \Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR . "include/header_email.php", Array(), Array("MODE" => "html")); ?>
             </div>

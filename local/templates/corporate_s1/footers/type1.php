@@ -22,24 +22,24 @@
 				<div class="email icon-custom"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_email.php", Array(), Array("MODE" => "html"));?></div>
 			</div>
             <div class="menu-container">
-			<div class="menu">
+			<div class="menu catalog-footer">
 				<div class="parent"><?\Nextype\Corporate\CCorporate::IncludeFile(SITE_DIR."include/footer_menu_title1.php", Array(), Array("MODE" => "html"));?></div>
-				
-                                <?
-                                $APPLICATION->IncludeComponent(
-                                        "bitrix:menu", "footer", Array(
-                                    "ROOT_MENU_TYPE" => "footer_1",
-                                    "MAX_LEVEL" => "1",
-                                    "CHILD_MENU_TYPE" => "left",
-                                    "USE_EXT" => "Y",
-                                    "ALLOW_MULTI_SELECT" => "N",
-                                    "MENU_CACHE_TYPE" => "A",
-                                    "MENU_CACHE_TIME" => "3600000",
-                                    "MENU_CACHE_USE_GROUPS" => "N",
-                                    "MENU_CACHE_GET_VARS" => ""
-                                        )
-                                );
-                                ?>
+
+                <?
+                $APPLICATION->IncludeComponent(
+                    "bitrix:menu", "left", Array(
+                        "ROOT_MENU_TYPE" => "catalog_left",
+                        "MAX_LEVEL" => "4",
+                        "CHILD_MENU_TYPE" => "catalog_left",
+                        "USE_EXT" => "Y",
+                        "ALLOW_MULTI_SELECT" => "N",
+                        "MENU_CACHE_TYPE" => "A",
+                        "MENU_CACHE_TIME" => "3600000",
+                        "MENU_CACHE_USE_GROUPS" => "N",
+                        "MENU_CACHE_GET_VARS" => ""
+                    )
+                );
+                ?>
                                 
                                 
 			</div>
