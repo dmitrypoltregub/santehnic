@@ -182,3 +182,44 @@ blockquote:after {
 .catalog .tabs-content .tab-content {
     position: relative;
 }
+@media screen and (max-width : 767px){
+	.header .info {
+		display:none;
+	}
+	.top .logo {
+		width: 100%;
+		height: 51px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+	}
+	.footer .top .subscribe .text {
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	.footer .top .social {
+		display: none;
+	}
+	.footer .bottom .contacts {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contacts .company {
+		padding: 0!important;
+	}
+	.footer .bottom .contacts .location {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	.footer .bottom .copyright {
+		margin: 25px auto !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
