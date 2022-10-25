@@ -6,13 +6,13 @@
         <? endforeach; ?>
     </div>
     <? endif; ?>
-    <a href="<?=$arResult['ITEM']['DETAIL_PAGE_URL']?>" class="image">
-        <img src="<?=$arResult['ITEM']['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arResult['ITEM']['PREVIEW_PICTURE']['ALT']?>" title="<?=$arResult['ITEM']['PREVIEW_PICTURE']['TITLE']?>">
+    <a title="Купить_<?=$arResult['ITEM']['NAME']?>_в Москве" href="<?=$arResult['ITEM']['DETAIL_PAGE_URL']?>" class="image">
+        <img title="Купить_<?=$arResult['ITEM']['NAME']?>_в Москве" alt="<?=$arResult['ITEM']['NAME']?>" src="<?=$arResult['ITEM']['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arResult['ITEM']['PREVIEW_PICTURE']['ALT']?>" title="<?=$arResult['ITEM']['PREVIEW_PICTURE']['TITLE']?>">
     </a>		
     <? if (!empty($arResult['ITEM']['SECTION'])): ?>
     <div class="category"><?=$arResult['ITEM']['SECTION']['NAME']?></div>
     <? endif; ?>
-    <div class="name"><a href="<?=$arResult['ITEM']['DETAIL_PAGE_URL']?>"><?=$arResult['ITEM']['NAME']?></a></div>
+    <div class="name"><a title="Купить_<?=$arResult['ITEM']['NAME']?>_в Москве" href="<?=$arResult['ITEM']['DETAIL_PAGE_URL']?>"><?=$arResult['ITEM']['NAME']?></a></div>
     <div class="info">
         <? if ($arParams["DISPLAY_IN_STOCK"] === "Y"): ?>
             <? if (is_array($arResult['ITEM']['STOCK'])): ?>

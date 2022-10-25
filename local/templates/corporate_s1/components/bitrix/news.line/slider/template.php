@@ -16,11 +16,11 @@ $strId = randString(5);
                 </div>
                                 <div class="actions">
                                 <? if (!empty($arItem['BUTTON_PRIMARY_TEXT'])):?>
-				<a href="<?=$arItem['BUTTON_PRIMARY_LINK']?>" class="btn big color"><?=$arItem['BUTTON_PRIMARY_TEXT']?></a>
+				<a title="Купить_<?=$arItem['NAME']?>_в Москве" href="<?=$arItem['BUTTON_PRIMARY_LINK']?>" class="btn big color"><?=$arItem['BUTTON_PRIMARY_TEXT']?></a>
                                 <? endif; ?>
                                 
                                 <? if (!empty($arItem['BUTTON_SECOND_TEXT'])):?>
-				<a href="<?=$arItem['BUTTON_SECOND_LINK']?>" class="btn big"><?=$arItem['BUTTON_SECOND_TEXT']?></a>
+				<a title="Купить_<?=$arItem['NAME']?>_в Москве" href="<?=$arItem['BUTTON_SECOND_LINK']?>" class="btn big"><?=$arItem['BUTTON_SECOND_TEXT']?></a>
                                 <? endif; ?>
                                 </div>
 			</div>
