@@ -183,6 +183,14 @@ blockquote:after {
     position: relative;
 }
 @media screen and (max-width : 767px){
+	.text img{    width: 100%;}
+	.conf {
+		font-size: 12px;
+		margin-top: 25px;
+	}
+	.top-slider .item.center .name {
+		font-size: 17px;
+	}
 	.header .info {
 		display:none;
 	}
